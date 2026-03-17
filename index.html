@@ -1,2192 +1,693 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FindConsultancy.xyz | Nepal's Study Abroad Platform</title>
-  <link rel="icon" type="image/x-icon" href="/TP__LOGO.png">
-  <meta name="description"
-    content="Find and compare Nepal's top education consultancies. Generate your SOP with AI. Real data on success rates, scam history, and contact info." />
-  <link rel="canonical" href="https://findconsultancy.xyz" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top Consultancy in Nepal for Study Abroad | Australia, Canada, UK, USA, Japan | FindConsultancy</title>
+  <meta name="description" content="Top consultancy in Nepal for study abroad in Australia, Canada, UK, USA, Japan, South Korea and Germany. Compare verified consultancies in Kathmandu with real success rates, scam alerts and free AI SOP generator."/>
+  <meta name="keywords" content="top consultancy in nepal, best consultancy in nepal, consultancy in kathmandu, study abroad nepal, consultancy for australia nepal, consultancy for canada nepal, consultancy for uk nepal, consultancy for usa nepal, consultancy for japan nepal, abroad study consultancy nepal, education consultancy nepal, find consultancy nepal, best consultancy kathmandu, study abroad from nepal, nepal student visa consultancy, consultancy pokhara, consultancy chitwan, government registered consultancy nepal"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://findconsultancy.xyz"/>
+  <meta property="og:title" content="Top Consultancy in Nepal for Study Abroad | FindConsultancy"/>
+  <meta property="og:description" content="Find and compare the best consultancies in Nepal for Australia, Canada, UK, USA, Japan. Verified government-registered consultancies with real success rates and scam history."/>
+  <meta property="og:url" content="https://findconsultancy.xyz"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://findconsultancy.xyz/TP__LOGO.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Top Consultancy in Nepal for Study Abroad | FindConsultancy"/>
+  <meta name="twitter:description" content="Compare verified consultancies in Nepal. Real success rates, scam alerts, free AI SOP generator."/>
+  <meta name="geo.region" content="NP"/>
+  <meta name="geo.placename" content="Kathmandu, Nepal"/>
+  <meta name="language" content="English"/>
+  <meta name="author" content="FindConsultancy Nepal"/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FindConsultancy Nepal",
+    "url": "https://findconsultancy.xyz",
+    "description": "Top consultancy finder in Nepal for study abroad in Australia, Canada, UK, USA, Japan",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://findconsultancy.xyz/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FindConsultancy Nepal",
+    "url": "https://findconsultancy.xyz",
+    "logo": "https://findconsultancy.xyz/TP__LOGO.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@findconsultancy.xyz",
+      "contactType": "customer service",
+      "areaServed": "NP"
+    },
+    "sameAs": []
+  }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <style>
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0
-    }
-
-    :root {
-      --black: #0A0A0A;
-      --gray-900: #111827;
-      --gray-700: #374151;
-      --gray-600: #4B5563;
-      --gray-500: #6B7280;
-      --gray-400: #9CA3AF;
-      --gray-300: #D1D5DB;
-      --gray-100: #F3F4F6;
-      --gray-50: #F9FAFB;
-      --white: #FFFFFF;
-      --blue: #2563EB;
-      --blue-dark: #1D4ED8;
-      --blue-light: #EFF6FF;
-      --blue-mid: #DBEAFE;
-      --green: #16A34A;
-      --green-light: #F0FDF4;
-      --red: #DC2626;
-      --red-light: #FEF2F2;
-      --orange: #D97706;
-      --orange-light: #FFFBEB;
-      --border: #E5E7EB
-    }
-
-    html {
-      scroll-behavior: smooth
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--white);
-      color: var(--gray-900);
-      overflow-x: hidden;
-      font-size: 14px;
-      line-height: 1.5
-    }
-
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--black:#0A0A0A;--gray-900:#111827;--gray-700:#374151;--gray-600:#4B5563;--gray-500:#6B7280;--gray-400:#9CA3AF;--gray-300:#D1D5DB;--gray-100:#F3F4F6;--gray-50:#F9FAFB;--white:#FFFFFF;--blue:#2563EB;--blue-dark:#1D4ED8;--blue-light:#EFF6FF;--blue-mid:#DBEAFE;--green:#16A34A;--green-light:#F0FDF4;--red:#DC2626;--red-light:#FEF2F2;--orange:#D97706;--orange-light:#FFFBEB;--border:#E5E7EB}
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',sans-serif;background:var(--white);color:var(--gray-900);overflow-x:hidden;font-size:14px;line-height:1.5}
     /* NAV */
-    nav {
-      background: var(--white);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      padding: 0 24px
-    }
-
-    .nav-inner {
-      max-width: 1120px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 58px;
-      gap: 16px
-    }
-
-    .logo-wrap {
-      display: flex;
-      align-items: center;
-      text-decoration: none
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 2px;
-      list-style: none
-    }
-
-    .nav-links a {
-      color: var(--gray-600);
-      text-decoration: none;
-      font-size: 13px;
-      font-weight: 500;
-      padding: 6px 11px;
-      border-radius: 6px;
-      transition: all .15s
-    }
-
-    .nav-links a:hover {
-      color: var(--gray-900);
-      background: var(--gray-100)
-    }
-
-    .nav-right {
-      display: flex;
-      gap: 8px;
-      align-items: center
-    }
-
-    .btn-primary {
-      background: var(--black);
-      color: #fff;
-      border: none;
-      border-radius: 7px;
-      padding: 8px 16px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit;
-      transition: all .15s;
-      white-space: nowrap
-    }
-
-    .btn-primary:hover {
-      background: var(--gray-700)
-    }
-
-    .btn-outline {
-      background: var(--white);
-      color: var(--gray-700);
-      border: 1px solid var(--border);
-      border-radius: 7px;
-      padding: 8px 14px;
-      font-size: 13px;
-      font-weight: 500;
-      cursor: pointer;
-      font-family: inherit;
-      transition: all .15s
-    }
-
-    .btn-outline:hover {
-      border-color: var(--gray-400);
-      background: var(--gray-50)
-    }
-
-    .btn-danger {
-      background: var(--white);
-      color: var(--red);
-      border: 1px solid #FECACA;
-      border-radius: 7px;
-      padding: 8px 14px;
-      font-size: 13px;
-      font-weight: 500;
-      cursor: pointer;
-      font-family: inherit;
-      transition: all .15s
-    }
-
-    .btn-danger:hover {
-      background: var(--red-light)
-    }
-
+    nav{background:var(--white);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;padding:0 24px}
+    .nav-inner{max-width:1120px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:58px;gap:16px}
+    .logo-wrap{display:flex;align-items:center;text-decoration:none}
+    .nav-links{display:flex;gap:2px;list-style:none}
+    .nav-links a{color:var(--gray-600);text-decoration:none;font-size:13px;font-weight:500;padding:6px 11px;border-radius:6px;transition:all .15s}
+    .nav-links a:hover{color:var(--gray-900);background:var(--gray-100)}
+    .nav-right{display:flex;gap:8px;align-items:center}
+    .btn-primary{background:var(--black);color:#fff;border:none;border-radius:7px;padding:8px 16px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s;white-space:nowrap}
+    .btn-primary:hover{background:var(--gray-700)}
+    .btn-outline{background:var(--white);color:var(--gray-700);border:1px solid var(--border);border-radius:7px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .15s}
+    .btn-outline:hover{border-color:var(--gray-400);background:var(--gray-50)}
+    .btn-danger{background:var(--white);color:var(--red);border:1px solid #FECACA;border-radius:7px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .15s}
+    .btn-danger:hover{background:var(--red-light)}
     /* HERO */
-    .hero {
-      background: var(--white);
-      border-bottom: 1px solid var(--border);
-      padding: 72px 24px 64px;
-      text-align: center
-    }
-
-    .hero-inner {
-      max-width: 680px;
-      margin: 0 auto
-    }
-
-    .hero-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: var(--gray-100);
-      border-radius: 999px;
-      padding: 4px 14px;
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--gray-600);
-      margin-bottom: 20px;
-      border: 1px solid var(--border)
-    }
-
-    .hero h1 {
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      font-weight: 800;
-      line-height: 1.15;
-      color: var(--gray-900);
-      margin-bottom: 16px;
-      letter-spacing: -.02em
-    }
-
-    .hero h1 em {
-      font-style: normal;
-      color: var(--blue)
-    }
-
-    .hero p {
-      color: var(--gray-500);
-      font-size: 15px;
-      line-height: 1.7;
-      margin-bottom: 32px;
-      max-width: 520px;
-      margin-left: auto;
-      margin-right: auto
-    }
-
-    .hero-btns {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-bottom: 40px
-    }
-
-    .btn-hero-primary {
-      background: var(--black);
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      padding: 11px 22px;
-      font-size: 14px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit;
-      transition: all .15s
-    }
-
-    .btn-hero-primary:hover {
-      background: var(--gray-700)
-    }
-
-    .btn-hero-secondary {
-      background: var(--white);
-      color: var(--gray-700);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 11px 22px;
-      font-size: 14px;
-      font-weight: 500;
-      cursor: pointer;
-      font-family: inherit;
-      transition: all .15s
-    }
-
-    .btn-hero-secondary:hover {
-      background: var(--gray-50);
-      border-color: var(--gray-300)
-    }
-
-    .hero-stats {
-      display: flex;
-      gap: 32px;
-      justify-content: center;
-      flex-wrap: wrap
-    }
-
-    .hstat {
-      text-align: center
-    }
-
-    .hstat-num {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--gray-900)
-    }
-
-    .hstat-lbl {
-      font-size: 12px;
-      color: var(--gray-500);
-      margin-top: 2px
-    }
-
+    .hero{background:var(--white);border-bottom:1px solid var(--border);padding:72px 24px 64px;text-align:center}
+    .hero-inner{max-width:680px;margin:0 auto}
+    .hero-tag{display:inline-flex;align-items:center;gap:6px;background:var(--gray-100);border-radius:999px;padding:4px 14px;font-size:12px;font-weight:500;color:var(--gray-600);margin-bottom:20px;border:1px solid var(--border)}
+    .hero h1{font-size:clamp(1.8rem,4vw,3rem);font-weight:800;line-height:1.15;color:var(--gray-900);margin-bottom:16px;letter-spacing:-.02em}
+    .hero h1 em{font-style:normal;color:var(--blue)}
+    .hero p{color:var(--gray-500);font-size:15px;line-height:1.7;margin-bottom:32px;max-width:520px;margin-left:auto;margin-right:auto}
+    .hero-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+    .btn-hero-primary{background:var(--black);color:#fff;border:none;border-radius:8px;padding:11px 22px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s}
+    .btn-hero-primary:hover{background:var(--gray-700)}
+    .btn-hero-secondary{background:var(--white);color:var(--gray-700);border:1px solid var(--border);border-radius:8px;padding:11px 22px;font-size:14px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .15s}
+    .btn-hero-secondary:hover{background:var(--gray-50);border-color:var(--gray-300)}
+    .hero-stats{display:flex;gap:32px;justify-content:center;flex-wrap:wrap}
+    .hstat{text-align:center}
+    .hstat-num{font-size:1.5rem;font-weight:800;color:var(--gray-900)}
+    .hstat-lbl{font-size:12px;color:var(--gray-500);margin-top:2px}
     /* STATS BAR */
-    .stats-bar {
-      background: var(--white);
-      border-bottom: 1px solid var(--border)
-    }
-
-    .stats-inner {
-      max-width: 1120px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: center
-    }
-
-    .stat-item {
-      padding: 14px 44px;
-      text-align: center;
-      border-right: 1px solid var(--border)
-    }
-
-    .stat-item:last-child {
-      border-right: none
-    }
-
-    .stat-num {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: var(--blue)
-    }
-
-    .stat-lbl {
-      font-size: 11px;
-      color: var(--gray-500);
-      margin-top: 2px;
-      font-weight: 500
-    }
-
+    .stats-bar{background:var(--white);border-bottom:1px solid var(--border)}
+    .stats-inner{max-width:1120px;margin:0 auto;display:flex;justify-content:center}
+    .stat-item{padding:14px 44px;text-align:center;border-right:1px solid var(--border)}
+    .stat-item:last-child{border-right:none}
+    .stat-num{font-size:1.4rem;font-weight:800;color:var(--blue)}
+    .stat-lbl{font-size:11px;color:var(--gray-500);margin-top:2px;font-weight:500}
     /* SECTION */
-    .section {
-      padding: 64px 24px;
-      max-width: 1120px;
-      margin: 0 auto
-    }
-
-    .section-center {
-      text-align: center;
-      margin-bottom: 40px
-    }
-
-    .section-tag {
-      display: inline-block;
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--blue);
-      text-transform: uppercase;
-      letter-spacing: .8px;
-      margin-bottom: 10px
-    }
-
-    .section h2 {
-      font-size: 1.7rem;
-      font-weight: 800;
-      color: var(--gray-900);
-      letter-spacing: -.02em;
-      margin-bottom: 10px
-    }
-
-    .section-sub {
-      color: var(--gray-500);
-      font-size: 15px;
-      line-height: 1.6;
-      max-width: 520px;
-      margin: 0 auto
-    }
-
+    .section{padding:64px 24px;max-width:1120px;margin:0 auto}
+    .section-center{text-align:center;margin-bottom:40px}
+    .section-tag{display:inline-block;font-size:12px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}
+    .section h2{font-size:1.7rem;font-weight:800;color:var(--gray-900);letter-spacing:-.02em;margin-bottom:10px}
+    .section-sub{color:var(--gray-500);font-size:15px;line-height:1.6;max-width:520px;margin:0 auto}
     /* TOOLS */
-    .tools-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 14px
-    }
-
-    .tool-card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 22px;
-      transition: all .2s;
-      cursor: pointer
-    }
-
-    .tool-card:hover {
-      box-shadow: 0 10px 15px rgba(0, 0, 0, .07);
-      border-color: var(--gray-300);
-      transform: translateY(-1px)
-    }
-
-    .tool-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 9px;
-      display: grid;
-      place-items: center;
-      font-size: 18px;
-      margin-bottom: 14px
-    }
-
-    .tool-icon.blue {
-      background: var(--blue-light)
-    }
-
-    .tool-icon.green {
-      background: var(--green-light)
-    }
-
-    .tool-icon.orange {
-      background: var(--orange-light)
-    }
-
-    .tool-icon.gray {
-      background: var(--gray-100)
-    }
-
-    .tool-card h3 {
-      font-size: .9rem;
-      font-weight: 700;
-      margin-bottom: 6px;
-      color: var(--gray-900)
-    }
-
-    .tool-card p {
-      font-size: 12px;
-      color: var(--gray-500);
-      line-height: 1.6;
-      margin-bottom: 14px
-    }
-
-    .tool-link {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--blue)
-    }
-
+    .tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+    .tool-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:22px;transition:all .2s;cursor:pointer}
+    .tool-card:hover{box-shadow:0 10px 15px rgba(0,0,0,.07);border-color:var(--gray-300);transform:translateY(-1px)}
+    .tool-icon{width:40px;height:40px;border-radius:9px;display:grid;place-items:center;font-size:18px;margin-bottom:14px}
+    .tool-icon.blue{background:var(--blue-light)}
+    .tool-icon.green{background:var(--green-light)}
+    .tool-icon.orange{background:var(--orange-light)}
+    .tool-icon.gray{background:var(--gray-100)}
+    .tool-card h3{font-size:.9rem;font-weight:700;margin-bottom:6px;color:var(--gray-900)}
+    .tool-card p{font-size:12px;color:var(--gray-500);line-height:1.6;margin-bottom:14px}
+    .tool-link{font-size:12px;font-weight:600;color:var(--blue)}
     /* FILTERS */
-    .filter-tabs {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-      margin-bottom: 12px
-    }
-
-    .ftab {
-      background: var(--white);
-      border: 1px solid var(--border);
-      color: var(--gray-600);
-      border-radius: 999px;
-      padding: 6px 14px;
-      font-size: 12px;
-      font-family: inherit;
-      cursor: pointer;
-      transition: all .15s;
-      font-weight: 500
-    }
-
-    .ftab:hover {
-      border-color: var(--gray-400);
-      color: var(--gray-900)
-    }
-
-    .ftab.on {
-      background: var(--gray-900);
-      border-color: var(--gray-900);
-      color: #fff
-    }
-
-    .search-row {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 10px;
-      flex-wrap: wrap
-    }
-
-    .search-box {
-      flex: 1;
-      min-width: 200px;
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 12px
-    }
-
-    .search-box input {
-      flex: 1;
-      background: none;
-      border: none;
-      outline: none;
-      color: var(--gray-900);
-      font-size: 13px;
-      font-family: inherit
-    }
-
-    .search-box input::placeholder {
-      color: var(--gray-400)
-    }
-
-    .search-sel {
-      background: var(--white);
-      border: 1px solid var(--border);
-      color: var(--gray-700);
-      border-radius: 8px;
-      padding: 8px 10px;
-      font-size: 12px;
-      font-family: inherit;
-      cursor: pointer;
-      outline: none
-    }
-
-    .hint-bar {
-      background: var(--blue-light);
-      border: 1px solid var(--blue-mid);
-      border-radius: 8px;
-      padding: 9px 13px;
-      font-size: 12px;
-      color: var(--blue);
-      margin-bottom: 12px
-    }
-
-    .rcount {
-      color: var(--gray-500);
-      font-size: 13px;
-      margin-bottom: 12px
-    }
-
-    .rcount b {
-      color: var(--gray-900)
-    }
-
+    .filter-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+    .ftab{background:var(--white);border:1px solid var(--border);color:var(--gray-600);border-radius:999px;padding:6px 14px;font-size:12px;font-family:inherit;cursor:pointer;transition:all .15s;font-weight:500}
+    .ftab:hover{border-color:var(--gray-400);color:var(--gray-900)}
+    .ftab.on{background:var(--gray-900);border-color:var(--gray-900);color:#fff}
+    .search-row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+    .search-box{flex:1;min-width:200px;background:var(--white);border:1px solid var(--border);border-radius:8px;display:flex;align-items:center;gap:8px;padding:8px 12px}
+    .search-box input{flex:1;background:none;border:none;outline:none;color:var(--gray-900);font-size:13px;font-family:inherit}
+    .search-box input::placeholder{color:var(--gray-400)}
+    .search-sel{background:var(--white);border:1px solid var(--border);color:var(--gray-700);border-radius:8px;padding:8px 10px;font-size:12px;font-family:inherit;cursor:pointer;outline:none}
+    .hint-bar{background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:8px;padding:9px 13px;font-size:12px;color:var(--blue);margin-bottom:12px}
+    .rcount{color:var(--gray-500);font-size:13px;margin-bottom:12px}
+    .rcount b{color:var(--gray-900)}
     /* CARDS */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 12px
-    }
-
-    .card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      transition: all .2s
-    }
-
-    .card:hover {
-      box-shadow: 0 10px 15px rgba(0, 0, 0, .07);
-      border-color: var(--gray-300)
-    }
-
-    .card.selected {
-      border-color: var(--blue);
-      box-shadow: 0 0 0 3px rgba(37, 99, 235, .1)
-    }
-
-    .ctop {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      margin-bottom: 12px;
-      gap: 8px
-    }
-
-    .clogo {
-      width: 42px;
-      height: 42px;
-      border-radius: 9px;
-      display: grid;
-      place-items: center;
-      font-size: 18px;
-      background: var(--gray-100);
-      flex-shrink: 0;
-      border: 1px solid var(--border)
-    }
-
-    .badges {
-      display: flex;
-      gap: 4px;
-      flex-wrap: wrap;
-      justify-content: flex-end
-    }
-
-    .badge {
-      font-size: 10px;
-      font-weight: 600;
-      border-radius: 5px;
-      padding: 2px 7px
-    }
-
-    .bv {
-      background: var(--green-light);
-      color: var(--green)
-    }
-
-    .bwarn {
-      background: var(--orange-light);
-      color: var(--orange)
-    }
-
-    .bscam {
-      background: var(--red-light);
-      color: var(--red)
-    }
-
-    .card h3 {
-      font-size: .88rem;
-      font-weight: 700;
-      margin-bottom: 3px;
-      line-height: 1.4;
-      color: var(--gray-900)
-    }
-
-    .cloc {
-      color: var(--gray-400);
-      font-size: 11px;
-      margin-bottom: 9px
-    }
-
-    .ccountries {
-      display: flex;
-      gap: 4px;
-      flex-wrap: wrap;
-      margin-bottom: 10px
-    }
-
-    .ctag {
-      background: var(--blue-light);
-      color: var(--blue);
-      font-size: 10px;
-      font-weight: 500;
-      border-radius: 4px;
-      padding: 2px 7px
-    }
-
-    .cstats {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow: hidden;
-      margin-bottom: 10px
-    }
-
-    .cs {
-      text-align: center;
-      padding: 8px 4px;
-      border-right: 1px solid var(--border)
-    }
-
-    .cs:last-child {
-      border-right: none
-    }
-
-    .cs-val {
-      font-size: .9rem;
-      font-weight: 700;
-      margin-bottom: 1px
-    }
-
-    .cs-lbl {
-      font-size: 9px;
-      color: var(--gray-400);
-      text-transform: uppercase;
-      letter-spacing: .4px;
-      font-weight: 500
-    }
-
-    .cs-val.good {
-      color: var(--green)
-    }
-
-    .cs-val.warn {
-      color: var(--orange)
-    }
-
-    .cs-val.bad {
-      color: var(--red)
-    }
-
-    .cs-val.blue {
-      color: var(--blue)
-    }
-
-    .ccontact {
-      display: flex;
-      flex-direction: column;
-      gap: 3px;
-      margin-bottom: 10px
-    }
-
-    .ccontact a {
-      color: var(--gray-500);
-      font-size: 11px;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      transition: color .15s
-    }
-
-    .ccontact a:hover {
-      color: var(--blue)
-    }
-
-    .cact {
-      display: flex;
-      gap: 6px
-    }
-
-    .btn-cmp {
-      flex: 1;
-      background: var(--gray-100);
-      color: var(--gray-700);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 7px;
-      font-size: 11px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all .15s;
-      font-family: inherit
-    }
-
-    .btn-cmp:hover,
-    .btn-cmp.added {
-      background: var(--blue-light);
-      color: var(--blue);
-      border-color: var(--blue-mid)
-    }
-
-    .btn-detail {
-      flex: 1;
-      background: var(--gray-900);
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      padding: 7px;
-      font-size: 11px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all .15s;
-      font-family: inherit
-    }
-
-    .btn-detail:hover {
-      background: var(--gray-700)
-    }
-
-    .btn-rep {
-      background: var(--white);
-      color: var(--red);
-      border: 1px solid #FECACA;
-      border-radius: 6px;
-      padding: 7px 9px;
-      font-size: 11px;
-      cursor: pointer;
-      transition: all .15s;
-      font-family: inherit
-    }
-
-    .btn-rep:hover {
-      background: var(--red-light)
-    }
-
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+    .card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:18px;transition:all .2s}
+    .card:hover{box-shadow:0 10px 15px rgba(0,0,0,.07);border-color:var(--gray-300)}
+    .card.selected{border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+    .ctop{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:12px;gap:8px}
+    .clogo{width:42px;height:42px;border-radius:9px;display:grid;place-items:center;font-size:18px;background:var(--gray-100);flex-shrink:0;border:1px solid var(--border)}
+    .badges{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+    .badge{font-size:10px;font-weight:600;border-radius:5px;padding:2px 7px}
+    .bv{background:var(--green-light);color:var(--green)}
+    .bwarn{background:var(--orange-light);color:var(--orange)}
+    .bscam{background:var(--red-light);color:var(--red)}
+    .card h3{font-size:.88rem;font-weight:700;margin-bottom:3px;line-height:1.4;color:var(--gray-900)}
+    .cloc{color:var(--gray-400);font-size:11px;margin-bottom:9px}
+    .ccountries{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px}
+    .ctag{background:var(--blue-light);color:var(--blue);font-size:10px;font-weight:500;border-radius:4px;padding:2px 7px}
+    .cstats{display:grid;grid-template-columns:1fr 1fr 1fr;border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:10px}
+    .cs{text-align:center;padding:8px 4px;border-right:1px solid var(--border)}
+    .cs:last-child{border-right:none}
+    .cs-val{font-size:.9rem;font-weight:700;margin-bottom:1px}
+    .cs-lbl{font-size:9px;color:var(--gray-400);text-transform:uppercase;letter-spacing:.4px;font-weight:500}
+    .cs-val.good{color:var(--green)}
+    .cs-val.warn{color:var(--orange)}
+    .cs-val.bad{color:var(--red)}
+    .cs-val.blue{color:var(--blue)}
+    .ccontact{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}
+    .ccontact a{color:var(--gray-500);font-size:11px;text-decoration:none;display:flex;align-items:center;gap:5px;transition:color .15s}
+    .ccontact a:hover{color:var(--blue)}
+    .cact{display:flex;gap:6px}
+    .btn-cmp{flex:1;background:var(--gray-100);color:var(--gray-700);border:1px solid var(--border);border-radius:6px;padding:7px;font-size:11px;font-weight:600;cursor:pointer;transition:all .15s;font-family:inherit}
+    .btn-cmp:hover,.btn-cmp.added{background:var(--blue-light);color:var(--blue);border-color:var(--blue-mid)}
+    .btn-detail{flex:1;background:var(--gray-900);color:#fff;border:none;border-radius:6px;padding:7px;font-size:11px;font-weight:600;cursor:pointer;transition:all .15s;font-family:inherit}
+    .btn-detail:hover{background:var(--gray-700)}
+    .btn-rep{background:var(--white);color:var(--red);border:1px solid #FECACA;border-radius:6px;padding:7px 9px;font-size:11px;cursor:pointer;transition:all .15s;font-family:inherit}
+    .btn-rep:hover{background:var(--red-light)}
     /* COMPARE BAR */
-    .compare-bar {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 150;
-      background: var(--white);
-      border-top: 2px solid var(--gray-900);
-      padding: 12px 24px;
-      display: none;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      flex-wrap: wrap;
-      box-shadow: 0 -4px 20px rgba(0, 0, 0, .08)
-    }
-
-    .compare-bar.visible {
-      display: flex
-    }
-
-    .compare-slots {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      flex: 1
-    }
-
-    .compare-slot {
-      background: var(--blue-light);
-      border: 1px solid var(--blue-mid);
-      border-radius: 7px;
-      padding: 6px 12px;
-      font-size: 11px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      min-width: 150px
-    }
-
-    .compare-slot.empty {
-      border-style: dashed;
-      border-color: var(--gray-300);
-      background: var(--gray-50);
-      color: var(--gray-400);
-      justify-content: center
-    }
-
-    .slot-name {
-      font-weight: 600;
-      font-size: 11px;
-      flex: 1;
-      color: var(--blue)
-    }
-
-    .slot-remove {
-      cursor: pointer;
-      color: var(--red);
-      font-size: 14px;
-      line-height: 1
-    }
-
-    .compare-actions {
-      display: flex;
-      gap: 8px;
-      flex-shrink: 0
-    }
-
-    .btn-compare-now {
-      background: var(--gray-900);
-      color: #fff;
-      border: none;
-      border-radius: 7px;
-      padding: 9px 18px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit
-    }
-
-    .btn-compare-now:hover {
-      background: var(--gray-700)
-    }
-
-    .btn-clear {
-      background: var(--white);
-      color: var(--red);
-      border: 1px solid #FECACA;
-      border-radius: 7px;
-      padding: 9px 12px;
-      font-size: 12px;
-      font-weight: 500;
-      cursor: pointer;
-      font-family: inherit
-    }
-
-    .btn-clear:hover {
-      background: var(--red-light)
-    }
-
+    .compare-bar{position:fixed;bottom:0;left:0;right:0;z-index:150;background:var(--white);border-top:2px solid var(--gray-900);padding:12px 24px;display:none;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;box-shadow:0 -4px 20px rgba(0,0,0,.08)}
+    .compare-bar.visible{display:flex}
+    .compare-slots{display:flex;gap:8px;flex-wrap:wrap;flex:1}
+    .compare-slot{background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:7px;padding:6px 12px;font-size:11px;display:flex;align-items:center;gap:8px;min-width:150px}
+    .compare-slot.empty{border-style:dashed;border-color:var(--gray-300);background:var(--gray-50);color:var(--gray-400);justify-content:center}
+    .slot-name{font-weight:600;font-size:11px;flex:1;color:var(--blue)}
+    .slot-remove{cursor:pointer;color:var(--red);font-size:14px;line-height:1}
+    .compare-actions{display:flex;gap:8px;flex-shrink:0}
+    .btn-compare-now{background:var(--gray-900);color:#fff;border:none;border-radius:7px;padding:9px 18px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+    .btn-compare-now:hover{background:var(--gray-700)}
+    .btn-clear{background:var(--white);color:var(--red);border:1px solid #FECACA;border-radius:7px;padding:9px 12px;font-size:12px;font-weight:500;cursor:pointer;font-family:inherit}
+    .btn-clear:hover{background:var(--red-light)}
     /* COUNTRIES */
-    .countries-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 10px
-    }
-
-    .country-card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px;
-      text-align: center;
-      cursor: pointer;
-      transition: all .15s
-    }
-
-    .country-card:hover {
-      border-color: var(--gray-300);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, .07)
-    }
-
-    .country-card .flag {
-      font-size: 28px;
-      margin-bottom: 8px
-    }
-
-    .country-card h4 {
-      font-size: .85rem;
-      font-weight: 600;
-      color: var(--gray-900);
-      margin-bottom: 3px
-    }
-
-    .country-card p {
-      font-size: 11px;
-      color: var(--gray-500);
-      margin: 0
-    }
-
+    .countries-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+    .country-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:16px;text-align:center;cursor:pointer;transition:all .15s}
+    .country-card:hover{border-color:var(--gray-300);box-shadow:0 4px 6px rgba(0,0,0,.07)}
+    .country-card .flag{font-size:28px;margin-bottom:8px}
+    .country-card h4{font-size:.85rem;font-weight:600;color:var(--gray-900);margin-bottom:3px}
+    .country-card p{font-size:11px;color:var(--gray-500);margin:0}
     /* SCAM */
-    .scam-card {
-      background: var(--red-light);
-      border: 1px solid #FECACA;
-      border-radius: 10px;
-      padding: 14px;
-      display: flex;
-      gap: 12px
-    }
-
-    .scam-card h4 {
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--red);
-      margin-bottom: 3px
-    }
-
-    .scam-card p {
-      font-size: 12px;
-      color: var(--gray-600);
-      line-height: 1.5
-    }
-
+    .scam-card{background:var(--red-light);border:1px solid #FECACA;border-radius:10px;padding:14px;display:flex;gap:12px}
+    .scam-card h4{font-size:13px;font-weight:700;color:var(--red);margin-bottom:3px}
+    .scam-card p{font-size:12px;color:var(--gray-600);line-height:1.5}
     /* CTA */
-    .cta-box {
-      background: var(--gray-900);
-      border-radius: 14px;
-      padding: 48px 40px;
-      text-align: center
-    }
-
-    .cta-box h2 {
-      font-size: 1.8rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 10px;
-      letter-spacing: -.02em
-    }
-
-    .cta-box p {
-      color: rgba(255, 255, 255, .65);
-      font-size: 15px;
-      line-height: 1.7;
-      max-width: 460px;
-      margin: 0 auto 28px
-    }
-
-    .cta-btns {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      flex-wrap: wrap
-    }
-
-    .btn-cta-white {
-      background: #fff;
-      color: var(--gray-900);
-      border: none;
-      border-radius: 8px;
-      padding: 11px 24px;
-      font-size: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      font-family: inherit
-    }
-
-    .btn-cta-ghost {
-      background: transparent;
-      color: rgba(255, 255, 255, .8);
-      border: 1px solid rgba(255, 255, 255, .2);
-      border-radius: 8px;
-      padding: 11px 24px;
-      font-size: 14px;
-      font-weight: 500;
-      cursor: pointer;
-      font-family: inherit
-    }
-
+    .cta-box{background:var(--gray-900);border-radius:14px;padding:48px 40px;text-align:center}
+    .cta-box h2{font-size:1.8rem;font-weight:800;color:#fff;margin-bottom:10px;letter-spacing:-.02em}
+    .cta-box p{color:rgba(255,255,255,.65);font-size:15px;line-height:1.7;max-width:460px;margin:0 auto 28px}
+    .cta-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+    .btn-cta-white{background:#fff;color:var(--gray-900);border:none;border-radius:8px;padding:11px 24px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}
+    .btn-cta-ghost{background:transparent;color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.2);border-radius:8px;padding:11px 24px;font-size:14px;font-weight:500;cursor:pointer;font-family:inherit}
     /* MODAL */
-    .overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      z-index: 200;
-      background: rgba(0, 0, 0, .4);
-      place-items: center;
-      overflow-y: auto;
-      padding: 20px
-    }
-
-    .overlay.on {
-      display: grid
-    }
-
-    .modal {
-      background: var(--white);
-      border-radius: 14px;
-      padding: 28px;
-      max-width: 900px;
-      width: 100%;
-      box-shadow: 0 10px 15px rgba(0, 0, 0, .07);
-      animation: pop .2s ease
-    }
-
-    .modal-sm {
-      max-width: 500px
-    }
-
-    .modal-lg {
-      max-width: 780px
-    }
-
-    .mh {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      gap: 10px
-    }
-
-    .mh h2 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--gray-900)
-    }
-
-    .mx {
-      background: var(--gray-100);
-      border: none;
-      color: var(--gray-500);
-      width: 30px;
-      height: 30px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 13px;
-      display: grid;
-      place-items: center;
-      font-family: inherit;
-      transition: all .15s;
-      flex-shrink: 0
-    }
-
-    .mx:hover {
-      background: var(--red-light);
-      color: var(--red)
-    }
-
+    .overlay{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.4);place-items:center;overflow-y:auto;padding:20px}
+    .overlay.on{display:grid}
+    .modal{background:var(--white);border-radius:14px;padding:28px;max-width:900px;width:100%;box-shadow:0 10px 15px rgba(0,0,0,.07);animation:pop .2s ease}
+    .modal-sm{max-width:500px}
+    .modal-lg{max-width:780px}
+    .mh{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;gap:10px}
+    .mh h2{font-size:1rem;font-weight:700;color:var(--gray-900)}
+    .mx{background:var(--gray-100);border:none;color:var(--gray-500);width:30px;height:30px;border-radius:6px;cursor:pointer;font-size:13px;display:grid;place-items:center;font-family:inherit;transition:all .15s;flex-shrink:0}
+    .mx:hover{background:var(--red-light);color:var(--red)}
     /* CMP TABLE */
-    .cmp-table {
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      overflow: hidden
-    }
-
-    .cmp-row {
-      display: grid;
-      border-bottom: 1px solid var(--border)
-    }
-
-    .cmp-row:last-child {
-      border-bottom: none
-    }
-
-    .cmp-row:nth-child(even) {
-      background: var(--gray-50)
-    }
-
-    .cmp-cell {
-      padding: 10px 14px;
-      font-size: 12px;
-      border-right: 1px solid var(--border)
-    }
-
-    .cmp-cell:last-child {
-      border-right: none
-    }
-
-    .cmp-cell.label {
-      background: var(--gray-50);
-      color: var(--gray-500);
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .5px
-    }
-
-    .cmp-row:nth-child(even) .cmp-cell.label {
-      background: var(--gray-100)
-    }
-
-    .winner {
-      color: var(--green);
-      font-weight: 700
-    }
-
-    .loser {
-      color: var(--gray-400)
-    }
-
+    .cmp-table{border:1px solid var(--border);border-radius:10px;overflow:hidden}
+    .cmp-row{display:grid;border-bottom:1px solid var(--border)}
+    .cmp-row:last-child{border-bottom:none}
+    .cmp-row:nth-child(even){background:var(--gray-50)}
+    .cmp-cell{padding:10px 14px;font-size:12px;border-right:1px solid var(--border)}
+    .cmp-cell:last-child{border-right:none}
+    .cmp-cell.label{background:var(--gray-50);color:var(--gray-500);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+    .cmp-row:nth-child(even) .cmp-cell.label{background:var(--gray-100)}
+    .winner{color:var(--green);font-weight:700}
+    .loser{color:var(--gray-400)}
     /* DET */
-    .det-head {
-      display: flex;
-      gap: 14px;
-      align-items: flex-start;
-      margin-bottom: 18px
-    }
-
-    .det-logo {
-      width: 52px;
-      height: 52px;
-      border-radius: 10px;
-      background: var(--gray-100);
-      border: 1px solid var(--border);
-      display: grid;
-      place-items: center;
-      font-size: 22px;
-      flex-shrink: 0
-    }
-
-    .det-info h2 {
-      font-size: 1.1rem;
-      font-weight: 800;
-      margin-bottom: 3px
-    }
-
-    .det-info p {
-      color: var(--gray-500);
-      font-size: 12px
-    }
-
-    .det-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      margin-bottom: 14px
-    }
-
-    .det-item {
-      background: var(--gray-50);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px
-    }
-
-    .di-label {
-      font-size: 10px;
-      color: var(--gray-400);
-      text-transform: uppercase;
-      letter-spacing: .4px;
-      margin-bottom: 3px;
-      font-weight: 600
-    }
-
-    .di-val {
-      font-size: 13px;
-      font-weight: 700
-    }
-
+    .det-head{display:flex;gap:14px;align-items:flex-start;margin-bottom:18px}
+    .det-logo{width:52px;height:52px;border-radius:10px;background:var(--gray-100);border:1px solid var(--border);display:grid;place-items:center;font-size:22px;flex-shrink:0}
+    .det-info h2{font-size:1.1rem;font-weight:800;margin-bottom:3px}
+    .det-info p{color:var(--gray-500);font-size:12px}
+    .det-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+    .det-item{background:var(--gray-50);border:1px solid var(--border);border-radius:8px;padding:10px}
+    .di-label{font-size:10px;color:var(--gray-400);text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px;font-weight:600}
+    .di-val{font-size:13px;font-weight:700}
     /* SOP */
-    .sop-step {
-      display: none
-    }
-
-    .sop-step.active {
-      display: block
-    }
-
-    .sop-form-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px
-    }
-
-    .fg {
-      margin-bottom: 14px
-    }
-
-    .fg label {
-      display: block;
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--gray-600);
-      margin-bottom: 5px
-    }
-
-    .fg input,
-    .fg select,
-    .fg textarea {
-      width: 100%;
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 7px;
-      padding: 9px 11px;
-      color: var(--gray-900);
-      font-family: inherit;
-      font-size: 13px;
-      outline: none;
-      transition: border-color .15s
-    }
-
-    .fg input:focus,
-    .fg select:focus,
-    .fg textarea:focus {
-      border-color: var(--gray-900)
-    }
-
-    .fg textarea {
-      resize: vertical;
-      min-height: 80px
-    }
-
-    .fg.full {
-      grid-column: 1/-1
-    }
-
-    .sop-output {
-      background: var(--gray-50);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 20px;
-      font-size: 13px;
-      line-height: 1.9;
-      color: var(--gray-700);
-      white-space: pre-wrap;
-      max-height: 400px;
-      overflow-y: auto;
-      margin-bottom: 16px
-    }
-
-    .sop-loading {
-      text-align: center;
-      padding: 40px 20px
-    }
-
-    .sop-loading .spinner {
-      width: 32px;
-      height: 32px;
-      border: 3px solid var(--gray-200);
-      border-top-color: var(--gray-900);
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-      margin: 0 auto 14px
-    }
-
-    .sop-actions {
-      display: flex;
-      gap: 8px
-    }
-
-    .btn-copy {
-      flex: 1;
-      background: var(--gray-100);
-      color: var(--gray-700);
-      border: 1px solid var(--border);
-      border-radius: 7px;
-      padding: 10px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit
-    }
-
-    .btn-regen {
-      background: var(--gray-900);
-      color: #fff;
-      border: none;
-      border-radius: 7px;
-      padding: 10px 20px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit
-    }
-
-    .bsub {
-      width: 100%;
-      background: var(--gray-900);
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      padding: 12px;
-      font-size: 14px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit;
-      transition: background .15s;
-      margin-top: 4px
-    }
-
-    .bsub:hover {
-      background: var(--gray-700)
-    }
-
-    .bsub.red {
-      background: var(--red)
-    }
-
-    .pay-info {
-      background: var(--blue-light);
-      border: 1px solid var(--blue-mid);
-      border-radius: 8px;
-      padding: 10px 14px;
-      font-size: 13px;
-      margin-bottom: 14px;
-      color: var(--gray-700)
-    }
-
-    .pay-info b {
-      color: var(--blue)
-    }
-
+    .sop-step{display:none}
+    .sop-step.active{display:block}
+    .sop-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .fg{margin-bottom:14px}
+    .fg label{display:block;font-size:12px;font-weight:500;color:var(--gray-600);margin-bottom:5px}
+    .fg input,.fg select,.fg textarea{width:100%;background:var(--white);border:1px solid var(--border);border-radius:7px;padding:9px 11px;color:var(--gray-900);font-family:inherit;font-size:13px;outline:none;transition:border-color .15s}
+    .fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--gray-900)}
+    .fg textarea{resize:vertical;min-height:80px}
+    .fg.full{grid-column:1/-1}
+    .sop-output{background:var(--gray-50);border:1px solid var(--border);border-radius:10px;padding:20px;font-size:13px;line-height:1.9;color:var(--gray-700);white-space:pre-wrap;max-height:400px;overflow-y:auto;margin-bottom:16px}
+    .sop-loading{text-align:center;padding:40px 20px}
+    .sop-loading .spinner{width:32px;height:32px;border:3px solid var(--gray-200);border-top-color:var(--gray-900);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 14px}
+    .sop-actions{display:flex;gap:8px}
+    .btn-copy{flex:1;background:var(--gray-100);color:var(--gray-700);border:1px solid var(--border);border-radius:7px;padding:10px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+    .btn-regen{background:var(--gray-900);color:#fff;border:none;border-radius:7px;padding:10px 20px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+    .bsub{width:100%;background:var(--gray-900);color:#fff;border:none;border-radius:8px;padding:12px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;transition:background .15s;margin-top:4px}
+    .bsub:hover{background:var(--gray-700)}
+    .bsub.red{background:var(--red)}
+    .pay-info{background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:8px;padding:10px 14px;font-size:13px;margin-bottom:14px;color:var(--gray-700)}
+    .pay-info b{color:var(--blue)}
     /* FOOTER */
-    footer {
-      background: #111;
-      color: rgba(255, 255, 255, .6);
-      padding: 48px 24px 32px
-    }
-
-    .footer-inner {
-      max-width: 1120px;
-      margin: 0 auto
-    }
-
-    .footer-top {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
-      gap: 40px;
-      margin-bottom: 40px
-    }
-
-    .footer-brand {
-      font-size: 1rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 6px
-    }
-
-    .footer-brand span {
-      color: #F59E0B
-    }
-
-    .footer-desc {
-      font-size: 12px;
-      line-height: 1.7;
-      color: rgba(255, 255, 255, .5);
-      max-width: 240px
-    }
-
-    .footer-col h4 {
-      font-size: 12px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 14px;
-      text-transform: uppercase;
-      letter-spacing: .6px
-    }
-
-    .footer-col ul {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      padding: 0;
-      margin: 0
-    }
-
-    .footer-col ul li a {
-      color: rgba(255, 255, 255, .5);
-      text-decoration: none;
-      font-size: 13px;
-      transition: color .15s
-    }
-
-    .footer-col ul li a:hover {
-      color: #fff
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, .1);
-      padding-top: 20px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 10px;
-      font-size: 12px
-    }
-
+    footer{background:#111;color:rgba(255,255,255,.6);padding:48px 24px 32px}
+    .footer-inner{max-width:1120px;margin:0 auto}
+    .footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+    .footer-brand{font-size:1rem;font-weight:800;color:#fff;margin-bottom:6px}
+    .footer-brand span{color:#F59E0B}
+    .footer-desc{font-size:12px;line-height:1.7;color:rgba(255,255,255,.5);max-width:240px}
+    .footer-col h4{font-size:12px;font-weight:700;color:#fff;margin-bottom:14px;text-transform:uppercase;letter-spacing:.6px}
+    .footer-col ul{list-style:none;display:flex;flex-direction:column;gap:8px;padding:0;margin:0}
+    .footer-col ul li a{color:rgba(255,255,255,.5);text-decoration:none;font-size:13px;transition:color .15s}
+    .footer-col ul li a:hover{color:#fff}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px}
     /* TOAST */
-    .toast {
-      position: fixed;
-      bottom: 70px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--gray-900);
-      color: #fff;
-      padding: 10px 22px;
-      border-radius: 999px;
-      font-weight: 600;
-      font-size: 13px;
-      z-index: 300;
-      display: none;
-      white-space: nowrap;
-      box-shadow: 0 10px 15px rgba(0, 0, 0, .07)
-    }
-
-    .toast.on {
-      display: block;
-      animation: toastUp .25s ease
-    }
-
+    .toast{position:fixed;bottom:70px;left:50%;transform:translateX(-50%);background:var(--gray-900);color:#fff;padding:10px 22px;border-radius:999px;font-weight:600;font-size:13px;z-index:300;display:none;white-space:nowrap;box-shadow:0 10px 15px rgba(0,0,0,.07)}
+    .toast.on{display:block;animation:toastUp .25s ease}
     /* HR */
-    hr {
-      border: none;
-      border-top: 1px solid var(--border)
-    }
-
-    @keyframes pop {
-      from {
-        opacity: 0;
-        transform: scale(.95)
-      }
-
-      to {
-        opacity: 1;
-        transform: scale(1)
-      }
-    }
-
-    @keyframes toastUp {
-      from {
-        opacity: 0;
-        transform: translateX(-50%) translateY(8px)
-      }
-
-      to {
-        opacity: 1;
-        transform: translateX(-50%) translateY(0)
-      }
-    }
-
-    @keyframes spin {
-      to {
-        transform: rotate(360deg)
-      }
-    }
-
-    @media(max-width:768px) {
-      .footer-top {
-        grid-template-columns: 1fr 1fr
-      }
-
-      .sop-form-grid {
-        grid-template-columns: 1fr
-      }
-    }
-
-    @media(max-width:640px) {
-      nav {
-        padding: 0 14px
-      }
-
-      .nav-links {
-        display: none
-      }
-
-      .hero {
-        padding: 36px 16px 28px
-      }
-
-      .hero h1 {
-        font-size: 1.6rem !important;
-        line-height: 1.2
-      }
-
-      .hero p {
-        font-size: 13px;
-        margin-bottom: 20px
-      }
-
-      .hero-btns {
-        flex-direction: column;
-        align-items: center
-      }
-
-      .btn-hero-primary,
-      .btn-hero-secondary {
-        width: 100%;
-        max-width: 300px
-      }
-
-      .hero-stats {
-        gap: 20px
-      }
-
-      .stats-inner {
-        flex-wrap: wrap
-      }
-
-      .stat-item {
-        padding: 10px 16px;
-        border-right: none;
-        border-bottom: 1px solid var(--border);
-        width: 50%;
-        text-align: center
-      }
-
-      .stat-item:nth-child(odd) {
-        border-right: 1px solid var(--border)
-      }
-
-      .stat-item:nth-child(3),
-      .stat-item:nth-child(4) {
-        border-bottom: none
-      }
-
-      .section {
-        padding: 32px 16px
-      }
-
-      .tools-grid {
-        grid-template-columns: 1fr 1fr
-      }
-
-      .grid {
-        grid-template-columns: 1fr
-      }
-
-      .countries-grid {
-        grid-template-columns: 1fr 1fr
-      }
-
-      .det-grid {
-        grid-template-columns: 1fr
-      }
-
-      .compare-bar {
-        padding: 10px 14px
-      }
-
-      .compare-slots {
-        display: none
-      }
-
-      .cmp-row {
-        grid-template-columns: 1fr !important
-      }
-
-      .footer-top {
-        grid-template-columns: 1fr
-      }
-
-      .cta-box {
-        padding: 28px 18px
-      }
-
-      .cta-box h2 {
-        font-size: 1.3rem
-      }
-
-      #pricing {
-        padding: 40px 16px
-      }
+    hr{border:none;border-top:1px solid var(--border)}
+    @keyframes pop{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}
+    @keyframes toastUp{from{opacity:0;transform:translateX(-50%) translateY(8px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @media(max-width:768px){.footer-top{grid-template-columns:1fr 1fr}.sop-form-grid{grid-template-columns:1fr}}
+    @media(max-width:640px){
+      nav{padding:0 14px}.nav-links{display:none}
+      .hero{padding:36px 16px 28px}
+      .hero h1{font-size:1.6rem!important;line-height:1.2}
+      .hero p{font-size:13px;margin-bottom:20px}
+      .hero-btns{flex-direction:column;align-items:center}
+      .btn-hero-primary,.btn-hero-secondary{width:100%;max-width:300px}
+      .hero-stats{gap:20px}
+      .stats-inner{flex-wrap:wrap}
+      .stat-item{padding:10px 16px;border-right:none;border-bottom:1px solid var(--border);width:50%;text-align:center}
+      .stat-item:nth-child(odd){border-right:1px solid var(--border)}
+      .stat-item:nth-child(3),.stat-item:nth-child(4){border-bottom:none}
+      .section{padding:32px 16px}
+      .tools-grid{grid-template-columns:1fr 1fr}
+      .grid{grid-template-columns:1fr}
+      .countries-grid{grid-template-columns:1fr 1fr}
+      .det-grid{grid-template-columns:1fr}
+      .compare-bar{padding:10px 14px}
+      .compare-slots{display:none}
+      .cmp-row{grid-template-columns:1fr!important}
+      .footer-top{grid-template-columns:1fr}
+      .cta-box{padding:28px 18px}
+      .cta-box h2{font-size:1.3rem}
+      #pricing{padding:40px 16px}
     }
   </style>
 </head>
-
 <body>
-  <nav>
-    <div class="nav-inner">
-      <a href="https://findconsultancy.xyz/" class="logo-wrap"><img src="TP__LOGO.png" alt="FindConsultancy Nepal"
-          style="height:40px;width:auto;display:block" /></a>
-      <ul class="nav-links">
-        <li><a href="#tools">Tools</a></li>
-        <li><a href="#compare">Compare</a></li>
-        <li><a href="#countries">Countries</a></li>
-        <li><a href="#scam-alerts">Scam Alerts</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-      </ul>
-      <div class="nav-right">
-        <button class="btn-danger" onclick="openModal('rModal')">&#128680; Report Scam</button>
-        <button class="btn-primary" onclick="openModal('payModal')">Get Featured</button>
-      </div>
-    </div>
-  </nav>
-  <div class="compare-bar" id="compareBar">
-    <div style="font-size:12px;font-weight:700;color:var(--gray-900);flex-shrink:0">Compare (max 3)</div>
-    <div class="compare-slots" id="compareSlots"></div>
-    <div class="compare-actions">
-      <button class="btn-clear" onclick="clearCompare()">Clear all</button>
-      <button class="btn-compare-now" onclick="openModal('cmpModal')">Compare Now</button>
+<nav>
+  <div class="nav-inner">
+    <a href="https://findconsultancy.xyz/" class="logo-wrap"><img src="TP__LOGO.png" alt="FindConsultancy Nepal" style="height:40px;width:auto;display:block"/></a>
+    <ul class="nav-links">
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#compare">Compare</a></li>
+      <li><a href="#countries">Countries</a></li>
+      <li><a href="#scam-alerts">Scam Alerts</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="btn-danger" onclick="openModal('rModal')">&#128680; Report Scam</button>
+      <button class="btn-primary" onclick="openModal('payModal')">Get Featured</button>
     </div>
   </div>
-  <div class="hero">
-    <div class="hero-inner">
-      <div class="hero-tag">&#127477; Built for Nepali Students</div>
-      <h1>Your complete guide to<br /><em>studying abroad</em> from Nepal</h1>
-      <p>Compare verified consultancies, generate your SOP with AI, and get real data on visa success rates — all in one
-        place.</p>
-      <div class="hero-btns">
-        <button class="btn-hero-primary" onclick="openModal('sopModal')">&#10024; Generate SOP with AI</button>
-        <button class="btn-hero-secondary"
-          onclick="document.getElementById('compare').scrollIntoView({behavior:'smooth'})">Compare Consultancies
-          &rarr;</button>
+</nav>
+<div class="compare-bar" id="compareBar">
+  <div style="font-size:12px;font-weight:700;color:var(--gray-900);flex-shrink:0">Compare (max 3)</div>
+  <div class="compare-slots" id="compareSlots"></div>
+  <div class="compare-actions">
+    <button class="btn-clear" onclick="clearCompare()">Clear all</button>
+    <button class="btn-compare-now" onclick="openModal('cmpModal')">Compare Now</button>
+  </div>
+</div>
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">&#127477; Built for Nepali Students</div>
+    <h1>Your complete guide to<br/><em>studying abroad</em> from Nepal</h1>
+    <p>Compare verified consultancies, generate your SOP with AI, and get real data on visa success rates — all in one place.</p>
+    <div class="hero-btns">
+      <button class="btn-hero-primary" onclick="openModal('sopModal')">&#10024; Generate SOP with AI</button>
+      <button class="btn-hero-secondary" onclick="document.getElementById('compare').scrollIntoView({behavior:'smooth'})">Compare Consultancies &rarr;</button>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat"><div class="hstat-num">20</div><div class="hstat-lbl">Verified Consultancies</div></div>
+      <div class="hstat"><div class="hstat-num">924</div><div class="hstat-lbl">Govt. Registered</div></div>
+      <div class="hstat"><div class="hstat-num">Free</div><div class="hstat-lbl">AI SOP Generator</div></div>
+      <div class="hstat"><div class="hstat-num">6</div><div class="hstat-lbl">Country Guides</div></div>
+    </div>
+  </div>
+</div>
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item"><div class="stat-num">20</div><div class="stat-lbl">With Real Data</div></div>
+    <div class="stat-item"><div class="stat-num">924</div><div class="stat-lbl">Govt. Registered</div></div>
+    <div class="stat-item"><div class="stat-num">3</div><div class="stat-lbl">Max Compare</div></div>
+    <div class="stat-item"><div class="stat-num">5</div><div class="stat-lbl">Scam Reports</div></div>
+  </div>
+</div>
+<div class="section" id="tools">
+  <div class="section-center">
+    <div class="section-tag">Core Tools</div>
+    <h2>Everything you need, in one place</h2>
+    <p class="section-sub">Free tools to help you plan, compare and apply for study abroad from Nepal.</p>
+  </div>
+  <div class="tools-grid">
+    <div class="tool-card" onclick="openModal('sopModal')">
+      <div class="tool-icon blue">&#10024;</div>
+      <h3>AI SOP Generator</h3>
+      <p>Generate a strong Statement of Purpose draft and refine it to match your story.</p>
+      <span class="tool-link">Try SOP generator &rarr;</span>
+    </div>
+    <div class="tool-card" onclick="document.getElementById('compare').scrollIntoView({behavior:'smooth'})">
+      <div class="tool-icon green">&#9878;</div>
+      <h3>Compare Consultancies</h3>
+      <p>Compare up to 3 consultancies side-by-side on success rates, complaints, and real data.</p>
+      <span class="tool-link">Compare now &rarr;</span>
+    </div>
+    <div class="tool-card" onclick="document.getElementById('scam-alerts').scrollIntoView({behavior:'smooth'})">
+      <div class="tool-icon orange">&#128680;</div>
+      <h3>Scam Alert Database</h3>
+      <p>Check if a consultancy has been reported by students before handing over money or documents.</p>
+      <span class="tool-link">View scam alerts &rarr;</span>
+    </div>
+    <div class="tool-card" onclick="document.getElementById('countries').scrollIntoView({behavior:'smooth'})">
+      <div class="tool-icon gray">&#127758;</div>
+      <h3>Country Guides</h3>
+      <p>Key info on visa requirements, top universities and student life for 6 popular destinations.</p>
+      <span class="tool-link">Explore countries &rarr;</span>
+    </div>
+  </div>
+</div>
+<hr/>
+<div class="section" id="compare">
+  <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:20px">
+    <div>
+      <div class="section-tag">Consultancy Finder</div>
+      <h2 style="font-size:1.4rem;font-weight:800;letter-spacing:-.02em;margin-bottom:4px">Browse &amp; Compare Top 20</h2>
+      <p style="color:var(--gray-500);font-size:13px">Government-verified with real data. Select up to 3 to compare.</p>
+    </div>
+    <button class="btn-outline" onclick="openModal('rModal')" style="flex-shrink:0">&#128680; Report a Scam</button>
+  </div>
+  <div class="search-row">
+    <div class="search-box"><span style="color:var(--gray-400);font-size:14px">&#128269;</span><input type="text" id="q" placeholder="Search by name, city, country..." oninput="applyF()"/></div>
+    <select class="search-sel" id="cityF" onchange="applyF()"><option value="">All Cities</option><option>Kathmandu</option><option>Pokhara</option><option>Lalitpur</option><option>Chitwan</option><option>Butwal</option><option>Birtamode</option></select>
+    <select class="search-sel" id="countryF" onchange="applyF()"><option value="">All Countries</option><option>Australia</option><option>Canada</option><option>Japan</option><option>UK</option><option>USA</option><option>Germany</option><option>South Korea</option></select>
+  </div>
+  <div class="filter-tabs">
+    <button class="ftab on" onclick="setF('all',this)">All</button>
+    <button class="ftab" onclick="setF('Kathmandu',this)">Kathmandu</button>
+    <button class="ftab" onclick="setF('Pokhara',this)">Pokhara</button>
+    <button class="ftab" onclick="setF('Lalitpur',this)">Lalitpur</button>
+    <button class="ftab" onclick="setF('Chitwan',this)">Chitwan</button>
+    <button class="ftab" onclick="setF('Butwal',this)">Butwal</button>
+    <button class="ftab" onclick="setF('Birtamode',this)">Birtamode</button>
+  </div>
+  <div class="hint-bar">&#128161; Click <strong>+ Compare</strong> on up to 3 cards, then tap <strong>Compare Now</strong> for a full side-by-side breakdown.</div>
+  <div class="rcount" id="rc"><b>20</b> consultancies found</div>
+  <div class="grid" id="cg"></div>
+</div>
+<hr/>
+<div class="section" id="countries">
+  <div class="section-center">
+    <div class="section-tag">Country Guides</div>
+    <h2>Where do you want to study?</h2>
+    <p class="section-sub">Key information on popular study destinations for Nepali students.</p>
+  </div>
+  <div class="countries-grid">
+    <div class="country-card" onclick="window.location='/study-in-australia'"><div class="flag">&#127462;&#127482;</div><h4>Australia</h4><p>Most popular for Nepali students</p></div>
+    <div class="country-card" onclick="window.location='/study-in-canada'"><div class="flag">&#127464;&#127462;</div><h4>Canada</h4><p>Post-study work rights up to 3 years</p></div>
+    <div class="country-card" onclick="window.location='/study-in-uk'"><div class="flag">&#127468;&#127463;</div><h4>United Kingdom</h4><p>1-2 year programs, Graduate visa</p></div>
+    <div class="country-card" onclick="window.location='/study-in-usa'"><div class="flag">&#127482;&#127480;</div><h4>United States</h4><p>OPT work opportunities after graduation</p></div>
+    <div class="country-card" onclick="window.location='/study-in-japan'"><div class="flag">&#127471;&#127477;</div><h4>Japan</h4><p>Affordable tuition, strong job market</p></div>
+    <div class="country-card" onclick="window.location='/study-in-south-korea'"><div class="flag">&#127472;&#127479;</div><h4>South Korea</h4><p>Scholarships available, low cost</p></div>
+  </div>
+</div>
+<hr/>
+<div class="section" id="scam-alerts">
+  <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:20px">
+    <div>
+      <div class="section-tag">Safety First</div>
+      <h2 style="font-size:1.4rem;font-weight:800;letter-spacing:-.02em;margin-bottom:4px">&#9888; Recent Scam Alerts</h2>
+      <p style="color:var(--gray-500);font-size:13px">Student-reported scams. Always verify before paying.</p>
+    </div>
+    <button class="btn-danger" onclick="openModal('rModal')" style="flex-shrink:0">&#128680; Submit a Report</button>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <div class="scam-card"><div style="font-size:18px;flex-shrink:0">&#128680;</div><div><h4>Fake "ABC Consultancy" - Kathmandu, Putalisadak</h4><p>Multiple students paid Rs. 80,000-1,20,000 for Australia visa. Office disappeared. NOT in government list. Filed: March 2025</p></div></div>
+    <div class="scam-card"><div style="font-size:18px;flex-shrink:0">&#128680;</div><div><h4>Unverified Agent - Pokhara Lakeside</h4><p>Collected passport copies and Rs. 50,000 for Canada PR. No official registration. Filed: February 2025</p></div></div>
+    <div class="scam-card"><div style="font-size:18px;flex-shrink:0">&#9888;</div><div><h4>Warning: "Easy Visa Nepal" - Birgunj</h4><p>Promising 100% visa guarantee for Japan. Illegal claim. 3 complaints. NOT in government list. Filed: January 2025</p></div></div>
+  </div>
+</div>
+<hr/>
+<div class="section">
+  <div class="cta-box">
+    <div class="section-tag" style="color:rgba(255,255,255,.5)">For Consultancy Owners</div>
+    <h2>Get to the Top of Every Search</h2>
+    <p>Your card appears first with badge, phone, email and full stats. Only Rs. 1,000/month. No contract, cancel anytime.</p>
+    <div class="cta-btns">
+      <button class="btn-cta-white" onclick="openModal('payModal')">Get Featured Now</button>
+      <button class="btn-cta-ghost" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">View all plans</button>
+    </div>
+  </div>
+</div>
+<div id="pricing" style="background:#fff;padding:64px 24px">
+  <div style="max-width:1120px;margin:0 auto">
+    <div style="text-align:center;margin-bottom:40px">
+      <h2 style="font-size:1.7rem;font-weight:800;color:#111;letter-spacing:-.02em;margin-bottom:10px">&#128176; Premium <span style="color:#F59E0B">Listing Plans</span></h2>
+      <p style="color:#6B7280;font-size:14px">Get more students to find YOUR consultancy. Pay via eSewa, Khalti or Bank Transfer.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch">
+      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:16px;padding:28px 24px;display:flex;flex-direction:column">
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9CA3AF;margin-bottom:16px">BASIC LISTING</div>
+        <div style="margin-bottom:24px"><span style="font-size:2.6rem;font-weight:800;color:#111;letter-spacing:-.03em;line-height:1">Rs. 250</span><span style="color:#9CA3AF;font-size:13px"> /month</span></div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px;flex:1;padding:0">
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Listed in official directory</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Basic name &amp; address</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Searchable by all students</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Govt. verified badge</li>
+        </ul>
+        <button onclick="openModal('basicModal')" style="width:100%;background:#fff;color:#374151;border:1.5px solid #D1D5DB;border-radius:10px;padding:13px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit">Get Basic - Rs. 250/mo</button>
       </div>
-      <div class="hero-stats">
-        <div class="hstat">
-          <div class="hstat-num">20</div>
-          <div class="hstat-lbl">Verified Consultancies</div>
-        </div>
-        <div class="hstat">
-          <div class="hstat-num">924</div>
-          <div class="hstat-lbl">Govt. Registered</div>
-        </div>
-        <div class="hstat">
-          <div class="hstat-num">Free</div>
-          <div class="hstat-lbl">AI SOP Generator</div>
-        </div>
-        <div class="hstat">
-          <div class="hstat-num">6</div>
-          <div class="hstat-lbl">Country Guides</div>
-        </div>
+      <div style="background:#fff;border:2px solid #F59E0B;border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative">
+        <div style="position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:#F59E0B;color:#111;font-size:11px;font-weight:800;padding:5px 20px;border-radius:999px;white-space:nowrap">&#11088; MOST POPULAR</div>
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#F59E0B;margin-bottom:16px;margin-top:10px">PREMIUM LISTING</div>
+        <div style="margin-bottom:24px"><span style="font-size:2.6rem;font-weight:800;color:#111;letter-spacing:-.03em;line-height:1">Rs. 1,000</span><span style="color:#9CA3AF;font-size:13px"> /month</span></div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px;flex:1;padding:0">
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Pinned TOP of all searches</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Premium &amp; Trusted badge</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Full contact details displayed</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Direct student inquiry button</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Priority in every city filter</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Monthly enquiry stats report</li>
+        </ul>
+        <button onclick="openModal('payModal')" style="width:100%;background:#F59E0B;color:#111;border:none;border-radius:10px;padding:14px;font-size:14px;font-weight:800;cursor:pointer;font-family:inherit">Get Featured - Rs. 1,000/mo</button>
+      </div>
+      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:16px;padding:28px 24px;display:flex;flex-direction:column">
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9CA3AF;margin-bottom:16px">&#127942; VERIFIED PARTNER</div>
+        <div style="margin-bottom:24px"><span style="font-size:2.6rem;font-weight:800;color:#111;letter-spacing:-.03em;line-height:1">Rs. 3,000</span><span style="color:#9CA3AF;font-size:13px"> /month</span></div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px;flex:1;padding:0">
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Everything in Premium</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Official Partner badge</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Homepage hero banner slot</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Featured in Scam-Free list</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Facebook &amp; TikTok shoutout</li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span style="color:#16A34A;flex-shrink:0">&#9989;</span> Dedicated full profile page</li>
+        </ul>
+        <button onclick="openModal('partnerModal')" style="width:100%;background:#fff;color:#374151;border:1.5px solid #D1D5DB;border-radius:10px;padding:13px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit">Become a Partner</button>
+      </div>
+    </div>
+    <div style="margin-top:20px;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:20px">
+      <div style="font-size:12px;font-weight:700;color:#6B7280;margin-bottom:12px">&#128179; How to Pay</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px">
+        <div style="background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:12px"><div style="font-size:16px;margin-bottom:4px">&#128154;</div><div style="font-size:11px;font-weight:700;color:#374151;margin-bottom:2px">eSewa</div><div style="font-family:monospace;font-size:14px;color:#2563EB;font-weight:700">9843044854</div></div>
+        <div style="background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:12px"><div style="font-size:16px;margin-bottom:4px">&#128156;</div><div style="font-size:11px;font-weight:700;color:#374151;margin-bottom:2px">Khalti</div><div style="font-family:monospace;font-size:14px;color:#2563EB;font-weight:700">9843044854</div></div>
+        <div style="background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:12px"><div style="font-size:16px;margin-bottom:4px">&#127970;</div><div style="font-size:11px;font-weight:700;color:#374151;margin-bottom:2px">Bank Transfer</div><div style="font-size:11px;color:#2563EB">hello@findconsultancy.xyz</div></div>
       </div>
     </div>
   </div>
-  <div class="stats-bar">
-    <div class="stats-inner">
-      <div class="stat-item">
-        <div class="stat-num">20</div>
-        <div class="stat-lbl">With Real Data</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">924</div>
-        <div class="stat-lbl">Govt. Registered</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">3</div>
-        <div class="stat-lbl">Max Compare</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">5</div>
-        <div class="stat-lbl">Scam Reports</div>
-      </div>
-    </div>
-  </div>
-  <div class="section" id="tools">
-    <div class="section-center">
-      <div class="section-tag">Core Tools</div>
-      <h2>Everything you need, in one place</h2>
-      <p class="section-sub">Free tools to help you plan, compare and apply for study abroad from Nepal.</p>
-    </div>
-    <div class="tools-grid">
-      <div class="tool-card" onclick="openModal('sopModal')">
-        <div class="tool-icon blue">&#10024;</div>
-        <h3>AI SOP Generator</h3>
-        <p>Generate a strong Statement of Purpose draft and refine it to match your story.</p>
-        <span class="tool-link">Try SOP generator &rarr;</span>
-      </div>
-      <div class="tool-card" onclick="document.getElementById('compare').scrollIntoView({behavior:'smooth'})">
-        <div class="tool-icon green">&#9878;</div>
-        <h3>Compare Consultancies</h3>
-        <p>Compare up to 3 consultancies side-by-side on success rates, complaints, and real data.</p>
-        <span class="tool-link">Compare now &rarr;</span>
-      </div>
-      <div class="tool-card" onclick="document.getElementById('scam-alerts').scrollIntoView({behavior:'smooth'})">
-        <div class="tool-icon orange">&#128680;</div>
-        <h3>Scam Alert Database</h3>
-        <p>Check if a consultancy has been reported by students before handing over money or documents.</p>
-        <span class="tool-link">View scam alerts &rarr;</span>
-      </div>
-      <div class="tool-card" onclick="document.getElementById('countries').scrollIntoView({behavior:'smooth'})">
-        <div class="tool-icon gray">&#127758;</div>
-        <h3>Country Guides</h3>
-        <p>Key info on visa requirements, top universities and student life for 6 popular destinations.</p>
-        <span class="tool-link">Explore countries &rarr;</span>
-      </div>
-    </div>
-  </div>
-  <hr />
-  <div class="section" id="compare">
-    <div
-      style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:20px">
+</div>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
       <div>
-        <div class="section-tag">Consultancy Finder</div>
-        <h2 style="font-size:1.4rem;font-weight:800;letter-spacing:-.02em;margin-bottom:4px">Browse &amp; Compare Top 20
-        </h2>
-        <p style="color:var(--gray-500);font-size:13px">Government-verified with real data. Select up to 3 to compare.
-        </p>
+        <div class="footer-brand">FindConsultancy<span>.xyz</span></div>
+        <p class="footer-desc">Nepal's most trusted platform for finding education consultancies and planning your study abroad journey.</p>
+        <div style="margin-top:14px;font-size:11px;color:rgba(255,255,255,.35)">Kathmandu, Nepal</div>
       </div>
-      <button class="btn-outline" onclick="openModal('rModal')" style="flex-shrink:0">&#128680; Report a Scam</button>
+      <div class="footer-col">
+        <h4>Country Guides</h4>
+        <ul>
+          <li><a href="/study-in-australia">Australia</a></li>
+          <li><a href="/study-in-canada">Canada</a></li>
+          <li><a href="/study-in-uk">United Kingdom</a></li>
+          <li><a href="/study-in-usa">United States</a></li>
+          <li><a href="/study-in-japan">Japan</a></li>
+          <li><a href="/study-in-south-korea">South Korea</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="#compare">Compare Consultancies</a></li>
+          <li><a href="#tools">AI SOP Generator</a></li>
+          <li><a href="#scam-alerts">Scam Alerts</a></li>
+          <li><a href="#pricing">Get Featured</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms of Service</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="search-row">
-      <div class="search-box"><span style="color:var(--gray-400);font-size:14px">&#128269;</span><input type="text"
-          id="q" placeholder="Search by name, city, country..." oninput="applyF()" /></div>
-      <select class="search-sel" id="cityF" onchange="applyF()">
-        <option value="">All Cities</option>
-        <option>Kathmandu</option>
-        <option>Pokhara</option>
-        <option>Lalitpur</option>
-        <option>Chitwan</option>
-        <option>Butwal</option>
-        <option>Birtamode</option>
-      </select>
-      <select class="search-sel" id="countryF" onchange="applyF()">
-        <option value="">All Countries</option>
-        <option>Australia</option>
-        <option>Canada</option>
-        <option>Japan</option>
-        <option>UK</option>
-        <option>USA</option>
-        <option>Germany</option>
-        <option>South Korea</option>
-      </select>
-    </div>
-    <div class="filter-tabs">
-      <button class="ftab on" onclick="setF('all',this)">All</button>
-      <button class="ftab" onclick="setF('Kathmandu',this)">Kathmandu</button>
-      <button class="ftab" onclick="setF('Pokhara',this)">Pokhara</button>
-      <button class="ftab" onclick="setF('Lalitpur',this)">Lalitpur</button>
-      <button class="ftab" onclick="setF('Chitwan',this)">Chitwan</button>
-      <button class="ftab" onclick="setF('Butwal',this)">Butwal</button>
-      <button class="ftab" onclick="setF('Birtamode',this)">Birtamode</button>
-    </div>
-    <div class="hint-bar">&#128161; Click <strong>+ Compare</strong> on up to 3 cards, then tap <strong>Compare
-        Now</strong> for a full side-by-side breakdown.</div>
-    <div class="rcount" id="rc"><b>20</b> consultancies found</div>
-    <div class="grid" id="cg"></div>
-  </div>
-  <hr />
-  <div class="section" id="countries">
-    <div class="section-center">
-      <div class="section-tag">Country Guides</div>
-      <h2>Where do you want to study?</h2>
-      <p class="section-sub">Key information on popular study destinations for Nepali students.</p>
-    </div>
-    <div class="countries-grid">
-      <div class="country-card" onclick="window.location='australia.html'">
-        <div class="flag">&#127462;&#127482;</div> 
-        <h4>Australia</h4>
-        <p>Most popular for Nepali students</p>
-      </div>
-      <div class="country-card" onclick="window.location='canada.html'">
-        <div class="flag">&#127464;&#127462;</div>
-        <h4>Canada</h4>
-        <p>Post-study work rights up to 3 years</p>
-      </div>
-      <div class="country-card" onclick="window.location='uk.html'">
-        <div class="flag">&#127468;&#127463;</div>
-        <h4>United Kingdom</h4>
-        <p>1-2 year programs, Graduate visa</p>
-      </div>
-      <div class="country-card" onclick="window.location='usa.html'">
-        <div class="flag">&#127482;&#127480;</div>
-        <h4>United States</h4>
-        <p>OPT work opportunities after graduation</p>
-      </div>
-      <div class="country-card" onclick="window.location='japan.html'">
-        <div class="flag">&#127471;&#127477;</div>
-        <h4>Japan</h4>
-        <p>Affordable tuition, strong job market</p>
-      </div>
-      <div class="country-card" onclick="window.location='south-korea.html'">
-        <div class="flag">&#127472;&#127479;</div>
-        <h4>South Korea</h4>
-        <p>Scholarships available, low cost</p>
-      </div>
+    <div class="footer-bottom">
+      <span>&#169; 2026 FindConsultancy.xyz - Not affiliated with Nepal Government.</span>
+      <span>hello@findconsultancy.xyz</span>
     </div>
   </div>
-  <hr />
-  <div class="section" id="scam-alerts">
-    <div
-      style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:20px">
-      <div>
-        <div class="section-tag">Safety First</div>
-        <h2 style="font-size:1.4rem;font-weight:800;letter-spacing:-.02em;margin-bottom:4px">&#9888; Recent Scam Alerts
-        </h2>
-        <p style="color:var(--gray-500);font-size:13px">Student-reported scams. Always verify before paying.</p>
-      </div>
-      <button class="btn-danger" onclick="openModal('rModal')" style="flex-shrink:0">&#128680; Submit a Report</button>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <div class="scam-card">
-        <div style="font-size:18px;flex-shrink:0">&#128680;</div>
-        <div>
-          <h4>Fake "ABC Consultancy" - Kathmandu, Putalisadak</h4>
-          <p>Multiple students paid Rs. 80,000-1,20,000 for Australia visa. Office disappeared. NOT in government list.
-            Filed: March 2025</p>
-        </div>
-      </div>
-      <div class="scam-card">
-        <div style="font-size:18px;flex-shrink:0">&#128680;</div>
-        <div>
-          <h4>Unverified Agent - Pokhara Lakeside</h4>
-          <p>Collected passport copies and Rs. 50,000 for Canada PR. No official registration. Filed: February 2025</p>
-        </div>
-      </div>
-      <div class="scam-card">
-        <div style="font-size:18px;flex-shrink:0">&#9888;</div>
-        <div>
-          <h4>Warning: "Easy Visa Nepal" - Birgunj</h4>
-          <p>Promising 100% visa guarantee for Japan. Illegal claim. 3 complaints. NOT in government list. Filed:
-            January 2025</p>
-        </div>
-      </div>
-    </div>
+</footer>
+<!-- MODALS -->
+<div class="overlay" id="detModal"><div class="modal modal-sm"><div class="mh"><h2 id="detTitle"></h2><button class="mx" onclick="closeModal('detModal')">X</button></div><div id="detBody"></div></div></div>
+<div class="overlay" id="cmpModal"><div class="modal"><div class="mh"><h2>Side-by-Side Comparison</h2><button class="mx" onclick="closeModal('cmpModal')">X</button></div><div id="cmpBody"></div></div></div>
+<div class="overlay" id="rModal">
+  <div class="modal modal-sm">
+    <div class="mh"><h2>&#128680; Report a Scam</h2><button class="mx" onclick="closeModal('rModal')">X</button></div>
+    <p style="color:var(--gray-500);font-size:12px;margin-bottom:14px">Identity stays private. Helps protect other students.</p>
+    <form onsubmit="submitReport(event)">
+      <div class="fg"><label>Consultancy Name *</label><input id="rname" type="text" required/></div>
+      <div class="fg"><label>Location *</label><input id="rcity" type="text" placeholder="e.g. Kathmandu, Putalisadak" required/></div>
+      <div class="fg"><label>Type of Complaint *</label><select id="rtype"><option>Took money and disappeared</option><option>Fake visa guarantee</option><option>Forged documents</option><option>Not government registered</option><option>Excessive fees</option><option>Other</option></select></div>
+      <div class="fg"><label>What happened? *</label><textarea id="rdesc" placeholder="Amount taken, when, what was promised..." required></textarea></div>
+      <div class="fg"><label>Your Contact (optional, private)</label><input id="rcontact" type="text" placeholder="Phone or email"/></div>
+      <button type="submit" class="bsub red">&#128680; Submit Report</button>
+    </form>
   </div>
-  <hr />
-  <div class="section">
-    <div class="cta-box">
-      <div class="section-tag" style="color:rgba(255,255,255,.5)">For Consultancy Owners</div>
-      <h2>Get to the Top of Every Search</h2>
-      <p>Your card appears first with badge, phone, email and full stats. Only Rs. 1,000/month. No contract, cancel
-        anytime.</p>
-      <div class="cta-btns">
-        <button class="btn-cta-white" onclick="openModal('payModal')">Get Featured Now</button>
-        <button class="btn-cta-ghost"
-          onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">View all plans</button>
-      </div>
-    </div>
+</div>
+<div class="overlay" id="basicModal">
+  <div class="modal modal-sm">
+    <div class="mh"><h2>Basic Listing - Rs. 250/mo</h2><button class="mx" onclick="closeModal('basicModal')">X</button></div>
+    <div class="fg"><label>Consultancy Name *</label><input id="bsc" type="text" required/></div>
+    <div class="fg"><label>Contact Person *</label><input id="bsn" type="text" required/></div>
+    <div class="fg"><label>Phone *</label><input id="bsp" type="tel" required/></div>
+    <div class="fg"><label>Email *</label><input id="bse" type="email" required/></div>
+    <div class="pay-info">Pay Rs. 250 to eSewa/Khalti: <b>9843044854</b></div>
+    <div class="fg"><label>Transaction ID *</label><input id="bstxn" type="text" required/></div>
+    <button class="bsub" onclick="submitBasic()">Submit and Get Listed</button>
   </div>
-  <div id="pricing" style="background:#fff;padding:64px 24px">
-    <div style="max-width:1120px;margin:0 auto">
-      <div style="text-align:center;margin-bottom:40px">
-        <h2 style="font-size:1.7rem;font-weight:800;color:#111;letter-spacing:-.02em;margin-bottom:10px">&#128176;
-          Premium <span style="color:#F59E0B">Listing Plans</span></h2>
-        <p style="color:#6B7280;font-size:14px">Get more students to find YOUR consultancy. Pay via eSewa, Khalti or
-          Bank Transfer.</p>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch">
-        <div
-          style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:16px;padding:28px 24px;display:flex;flex-direction:column">
-          <div
-            style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9CA3AF;margin-bottom:16px">
-            BASIC LISTING</div>
-          <div style="margin-bottom:24px"><span
-              style="font-size:2.6rem;font-weight:800;color:#111;letter-spacing:-.03em;line-height:1">Rs.
-              250</span><span style="color:#9CA3AF;font-size:13px"> /month</span></div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px;flex:1;padding:0">
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Listed in official directory</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Basic name &amp; address</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Searchable by all students</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Govt. verified badge</li>
-          </ul>
-          <button onclick="openModal('basicModal')"
-            style="width:100%;background:#fff;color:#374151;border:1.5px solid #D1D5DB;border-radius:10px;padding:13px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit">Get
-            Basic - Rs. 250/mo</button>
-        </div>
-        <div
-          style="background:#fff;border:2px solid #F59E0B;border-radius:16px;padding:28px 24px;display:flex;flex-direction:column;position:relative">
-          <div
-            style="position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:#F59E0B;color:#111;font-size:11px;font-weight:800;padding:5px 20px;border-radius:999px;white-space:nowrap">
-            &#11088; MOST POPULAR</div>
-          <div
-            style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#F59E0B;margin-bottom:16px;margin-top:10px">
-            PREMIUM LISTING</div>
-          <div style="margin-bottom:24px"><span
-              style="font-size:2.6rem;font-weight:800;color:#111;letter-spacing:-.03em;line-height:1">Rs.
-              1,000</span><span style="color:#9CA3AF;font-size:13px"> /month</span></div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px;flex:1;padding:0">
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Pinned TOP of all searches</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Premium &amp; Trusted badge</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Full contact details displayed</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Direct student inquiry button</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Priority in every city filter</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Monthly enquiry stats report</li>
-          </ul>
-          <button onclick="openModal('payModal')"
-            style="width:100%;background:#F59E0B;color:#111;border:none;border-radius:10px;padding:14px;font-size:14px;font-weight:800;cursor:pointer;font-family:inherit">Get
-            Featured - Rs. 1,000/mo</button>
-        </div>
-        <div
-          style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:16px;padding:28px 24px;display:flex;flex-direction:column">
-          <div
-            style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9CA3AF;margin-bottom:16px">
-            &#127942; VERIFIED PARTNER</div>
-          <div style="margin-bottom:24px"><span
-              style="font-size:2.6rem;font-weight:800;color:#111;letter-spacing:-.03em;line-height:1">Rs.
-              3,000</span><span style="color:#9CA3AF;font-size:13px"> /month</span></div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px;flex:1;padding:0">
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Everything in Premium</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Official Partner badge</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Homepage hero banner slot</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Featured in Scam-Free list</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Facebook &amp; TikTok shoutout</li>
-            <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#374151"><span
-                style="color:#16A34A;flex-shrink:0">&#9989;</span> Dedicated full profile page</li>
-          </ul>
-          <button onclick="openModal('partnerModal')"
-            style="width:100%;background:#fff;color:#374151;border:1.5px solid #D1D5DB;border-radius:10px;padding:13px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit">Become
-            a Partner</button>
-        </div>
-      </div>
-      <!--
-      <div style="margin-top:20px;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:20px">
-        <div style="font-size:12px;font-weight:700;color:#6B7280;margin-bottom:12px">&#128179; How to Pay</div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px">
-          <div style="background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:12px">
-            <div style="font-size:16px;margin-bottom:4px">&#128154;</div>
-            <div style="font-size:11px;font-weight:700;color:#374151;margin-bottom:2px">eSewa</div>
-            <div style="font-family:monospace;font-size:14px;color:#2563EB;font-weight:700">9843044854</div>
-          </div>
-          <div style="background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:12px">
-            <div style="font-size:16px;margin-bottom:4px">&#128156;</div>
-            <div style="font-size:11px;font-weight:700;color:#374151;margin-bottom:2px">Khalti</div>
-            <div style="font-family:monospace;font-size:14px;color:#2563EB;font-weight:700">9843044854</div>
-          </div>
-          <div style="background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:12px">
-            <div style="font-size:16px;margin-bottom:4px">&#127970;</div>
-            <div style="font-size:11px;font-weight:700;color:#374151;margin-bottom:2px">Bank Transfer</div>
-            <div style="font-size:11px;color:#2563EB">hello@findconsultancy.xyz</div>
-          </div>
-        </div>
-      </div> -->
-    </div>
-  </div> 
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-top">
-        <div>
-          <div class="footer-brand">FindConsultancy<span>.xyz</span></div>
-          <p class="footer-desc">Nepal's most trusted platform for finding education consultancies and planning your
-            study abroad journey.</p>
-          <div style="margin-top:14px;font-size:11px;color:rgba(255,255,255,.35)">Kathmandu, Nepal</div>
-        </div>
-        <div class="footer-col">
-          <h4>Country Guides</h4>
-          <ul>
-            <li><a href="australia.html">Australia</a></li>
-            <li><a href="canada.html">Canada</a></li>
-            <li><a href="uk.html">United Kingdom</a></li>
-            <li><a href="usa.html">United States</a></li>
-            <li><a href="japan.html">Japan</a></li>
-            <li><a href="south-korea.html">South Korea</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Platform</h4>
-          <ul>
-            <li><a href="#compare">Compare Consultancies</a></li>
-            <li><a href="#tools">AI SOP Generator</a></li>
-            <li><a href="#scam-alerts">Scam Alerts</a></li>
-            <li><a href="#pricing">Get Featured</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>&#169; 2026 FindConsultancy.xyz - Not affiliated with Nepal Government.</span>
-        <span><a href="mailto:hello@findconsultancy.xyz"
-            style="color:rgba(255,255,255,.5);text-decoration:none">hello@findconsultancy.xyz</a></span>
-      </div>
-    </div>
-  </footer>
-  <!-- MODALS -->
-  <div class="overlay" id="detModal">
-    <div class="modal modal-sm">
-      <div class="mh">
-        <h2 id="detTitle"></h2><button class="mx" onclick="closeModal('detModal')">X</button>
-      </div>
-      <div id="detBody"></div>
-    </div>
+</div>
+<div class="overlay" id="partnerModal">
+  <div class="modal modal-sm">
+    <div class="mh"><h2>Become a Verified Partner</h2><button class="mx" onclick="closeModal('partnerModal')">X</button></div>
+    <div class="pay-info">Rs. 3,000/month - Banner, partner badge, Facebook and TikTok shoutout, dedicated profile page.</div>
+    <div class="fg"><label>Consultancy Name *</label><input id="ptc" type="text" required/></div>
+    <div class="fg"><label>Contact Person *</label><input id="ptn" type="text" required/></div>
+    <div class="fg"><label>Phone *</label><input id="ptp" type="tel" required/></div>
+    <div class="fg"><label>Email *</label><input id="pte" type="email" required/></div>
+    <div class="pay-info">Pay Rs. 3,000 to eSewa/Khalti: <b>9843044854</b></div>
+    <div class="fg"><label>Transaction ID *</label><input id="pttxn" type="text" required/></div>
+    <button class="bsub" onclick="submitPartner()">Submit and Activate</button>
   </div>
-  <div class="overlay" id="cmpModal">
-    <div class="modal">
-      <div class="mh">
-        <h2>Side-by-Side Comparison</h2><button class="mx" onclick="closeModal('cmpModal')">X</button>
-      </div>
-      <div id="cmpBody"></div>
-    </div>
+</div>
+<div class="overlay" id="payModal">
+  <div class="modal modal-sm">
+    <div class="mh"><h2>Get Premium Listing</h2><button class="mx" onclick="closeModal('payModal')">X</button></div>
+    <div class="pay-info">Rs. 1,000/month - Appear first in all searches with full data, phone and email visible.</div>
+    <div class="fg"><label>Consultancy Name *</label><input id="pc" type="text" required/></div>
+    <div class="fg"><label>Contact Person *</label><input id="pn" type="text" required/></div>
+    <div class="fg"><label>Phone *</label><input id="pp" type="tel" required/></div>
+    <div class="fg"><label>Email *</label><input id="pe" type="email" required/></div>
+    <div class="pay-info">Pay Rs. 1,000 to eSewa/Khalti: <b>9843044854</b></div>
+    <div class="fg"><label>Transaction ID *</label><input id="ptxn" type="text" required/></div>
+    <button class="bsub" onclick="submitPay()">Submit and Activate</button>
   </div>
-  <div class="overlay" id="rModal">
-    <div class="modal modal-sm">
-      <div class="mh">
-        <h2>&#128680; Report a Scam</h2><button class="mx" onclick="closeModal('rModal')">X</button>
-      </div>
-      <p style="color:var(--gray-500);font-size:12px;margin-bottom:14px">Identity stays private. Helps protect other
-        students.</p>
-      <form onsubmit="submitReport(event)">
-        <div class="fg"><label>Consultancy Name *</label><input id="rname" type="text" required /></div>
-        <div class="fg"><label>Location *</label><input id="rcity" type="text" placeholder="e.g. Kathmandu, Putalisadak"
-            required /></div>
-        <div class="fg"><label>Type of Complaint *</label><select id="rtype">
-            <option>Took money and disappeared</option>
-            <option>Fake visa guarantee</option>
-            <option>Forged documents</option>
-            <option>Not government registered</option>
-            <option>Excessive fees</option>
-            <option>Other</option>
-          </select></div>
-        <div class="fg"><label>What happened? *</label><textarea id="rdesc"
-            placeholder="Amount taken, when, what was promised..." required></textarea></div>
-        <div class="fg"><label>Your Contact (optional, private)</label><input id="rcontact" type="text"
-            placeholder="Phone or email" /></div>
-        <button type="submit" class="bsub red">&#128680; Submit Report</button>
-      </form>
+</div>
+<!-- SOP MODAL -->
+<div class="overlay" id="sopModal">
+  <div class="modal modal-lg">
+    <div class="mh">
+      <div><h2>&#10024; AI SOP Generator</h2><p style="font-size:12px;color:var(--gray-500);margin-top:2px">Powered by Gemini AI - Free, no account needed</p></div>
+      <button class="mx" onclick="closeModal('sopModal');resetSOP()">X</button>
     </div>
-  </div>
-  <div class="overlay" id="basicModal">
-    <div class="modal modal-sm">
-      <div class="mh">
-        <h2>Basic Listing - Rs. 250/mo</h2><button class="mx" onclick="closeModal('basicModal')">X</button>
+    <div class="sop-step active" id="sopStep1">
+      <div class="sop-form-grid">
+        <div class="fg"><label>Your Full Name *</label><input type="text" id="sop_name" placeholder="e.g. Ramesh Sharma"/></div>
+        <div class="fg"><label>Destination Country *</label><select id="sop_country"><option value="">Select country</option><option>Australia</option><option>Canada</option><option>United Kingdom</option><option>United States</option><option>Japan</option><option>South Korea</option><option>Germany</option></select></div>
+        <div class="fg"><label>Course / Field of Study *</label><input type="text" id="sop_course" placeholder="e.g. Master of Business Administration"/></div>
+        <div class="fg"><label>University (if known)</label><input type="text" id="sop_uni" placeholder="e.g. University of Melbourne"/></div>
+        <div class="fg"><label>Highest Qualification *</label><select id="sop_qual"><option value="">Select</option><option>+2 / A-Levels</option><option>Bachelor's Degree</option><option>Master's Degree</option><option>Diploma</option></select></div>
+        <div class="fg"><label>GPA / Percentage</label><input type="text" id="sop_gpa" placeholder="e.g. 3.5 GPA or 75%"/></div>
+        <div class="fg full"><label>Work Experience (if any)</label><input type="text" id="sop_work" placeholder="e.g. 2 years as Marketing Executive at XYZ Company"/></div>
+        <div class="fg full"><label>Why this country and course? *</label><textarea id="sop_why" placeholder="Your reason - career goals, why this country, what attracted you..."></textarea></div>
+        <div class="fg full"><label>Future Career Goals *</label><textarea id="sop_goals" placeholder="What do you plan to do after completing your studies?"></textarea></div>
+        <div class="fg"><label>English Test Score (if any)</label><input type="text" id="sop_eng" placeholder="e.g. IELTS 6.5"/></div>
+        <div class="fg"><label>Financial Support</label><select id="sop_finance"><option value="">Select</option><option>Self-funded / Family</option><option>Bank loan</option><option>Scholarship</option><option>Sponsor</option></select></div>
       </div>
-      <div class="fg"><label>Consultancy Name *</label><input id="bsc" type="text" required /></div>
-      <div class="fg"><label>Contact Person *</label><input id="bsn" type="text" required /></div>
-      <div class="fg"><label>Phone *</label><input id="bsp" type="tel" required /></div>
-      <div class="fg"><label>Email *</label><input id="bse" type="email" required /></div>
-      <div class="pay-info">Pay Rs. 250 to eSewa/Khalti: <b>9843044854</b></div>
-      <div class="fg"><label>Transaction ID *</label><input id="bstxn" type="text" required /></div>
-      <button class="bsub" onclick="submitBasic()">Submit and Get Listed</button>
+      <button class="bsub" onclick="generateSOP()">&#10024; Generate My SOP with AI</button>
+      <p style="font-size:11px;color:var(--gray-400);text-align:center;margin-top:10px">Free - No account needed - Takes about 15 seconds</p>
     </div>
-  </div>
-  <div class="overlay" id="partnerModal">
-    <div class="modal modal-sm">
-      <div class="mh">
-        <h2>Become a Verified Partner</h2><button class="mx" onclick="closeModal('partnerModal')">X</button>
+    <div class="sop-step" id="sopStep2">
+      <div class="sop-loading">
+        <div class="spinner"></div>
+        <p id="sopLoadMsg">Generating your SOP with AI...</p>
+        <p style="font-size:11px;color:var(--gray-400);margin-top:6px">This takes about 15-20 seconds</p>
       </div>
-      <div class="pay-info">Rs. 3,000/month - Banner, partner badge, Facebook and TikTok shoutout, dedicated profile
-        page.</div>
-      <div class="fg"><label>Consultancy Name *</label><input id="ptc" type="text" required /></div>
-      <div class="fg"><label>Contact Person *</label><input id="ptn" type="text" required /></div>
-      <div class="fg"><label>Phone *</label><input id="ptp" type="tel" required /></div>
-      <div class="fg"><label>Email *</label><input id="pte" type="email" required /></div>
-      <div class="pay-info">Pay Rs. 3,000 to eSewa/Khalti: <b>9843044854</b></div>
-      <div class="fg"><label>Transaction ID *</label><input id="pttxn" type="text" required /></div>
-      <button class="bsub" onclick="submitPartner()">Submit and Activate</button>
     </div>
-  </div>
-  <div class="overlay" id="payModal">
-    <div class="modal modal-sm">
-      <div class="mh">
-        <h2>Get Premium Listing</h2><button class="mx" onclick="closeModal('payModal')">X</button>
+    <div class="sop-step" id="sopStep3">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px">
+        <div><div style="font-size:13px;font-weight:700;color:var(--green)">Your SOP is ready!</div><div style="font-size:11px;color:var(--gray-500)">Review, edit and paste into your application.</div></div>
+        <button class="btn-outline" style="font-size:12px;padding:6px 12px" onclick="showSOPStep(1)">Edit Details</button>
       </div>
-      <div class="pay-info">Rs. 1,000/month - Appear first in all searches with full data, phone and email visible.
+      <div class="sop-output" id="sopOutput"></div>
+      <div class="sop-actions">
+        <button class="btn-copy" onclick="copySOP()">Copy SOP</button>
+        <button class="btn-regen" onclick="generateSOP()">Regenerate</button>
       </div>
-      <div class="fg"><label>Consultancy Name *</label><input id="pc" type="text" required /></div>
-      <div class="fg"><label>Contact Person *</label><input id="pn" type="text" required /></div>
-      <div class="fg"><label>Phone *</label><input id="pp" type="tel" required /></div>
-      <div class="fg"><label>Email *</label><input id="pe" type="email" required /></div>
-      <div class="pay-info">Pay Rs. 1,000 to eSewa/Khalti: <b>9843044854</b></div>
-      <div class="fg"><label>Transaction ID *</label><input id="ptxn" type="text" required /></div>
-      <button class="bsub" onclick="submitPay()">Submit and Activate</button>
-    </div>
-  </div>
-  <!-- SOP MODAL -->
-  <div class="overlay" id="sopModal">
-    <div class="modal modal-lg">
-      <div class="mh">
-        <div>
-          <h2>&#10024; AI SOP Generator</h2>
-          <p style="font-size:12px;color:var(--gray-500);margin-top:2px">Powered by Gemini AI - Free, no account needed
-          </p>
-        </div>
-        <button class="mx" onclick="closeModal('sopModal');resetSOP()">X</button>
-      </div>
-      <div class="sop-step active" id="sopStep1">
-        <div class="sop-form-grid">
-          <div class="fg"><label>Your Full Name *</label><input type="text" id="sop_name"
-              placeholder="e.g. Ramesh Sharma" /></div>
-          <div class="fg"><label>Destination Country *</label><select id="sop_country">
-              <option value="">Select country</option>
-              <option>Australia</option>
-              <option>Canada</option>
-              <option>United Kingdom</option>
-              <option>United States</option>
-              <option>Japan</option>
-              <option>South Korea</option>
-              <option>Germany</option>
-            </select></div>
-          <div class="fg"><label>Course / Field of Study *</label><input type="text" id="sop_course"
-              placeholder="e.g. Master of Business Administration" /></div>
-          <div class="fg"><label>University (if known)</label><input type="text" id="sop_uni"
-              placeholder="e.g. University of Melbourne" /></div>
-          <div class="fg"><label>Highest Qualification *</label><select id="sop_qual">
-              <option value="">Select</option>
-              <option>+2 / A-Levels</option>
-              <option>Bachelor's Degree</option>
-              <option>Master's Degree</option>
-              <option>Diploma</option>
-            </select></div>
-          <div class="fg"><label>GPA / Percentage</label><input type="text" id="sop_gpa"
-              placeholder="e.g. 3.5 GPA or 75%" /></div>
-          <div class="fg full"><label>Work Experience (if any)</label><input type="text" id="sop_work"
-              placeholder="e.g. 2 years as Marketing Executive at XYZ Company" /></div>
-          <div class="fg full"><label>Why this country and course? *</label><textarea id="sop_why"
-              placeholder="Your reason - career goals, why this country, what attracted you..."></textarea></div>
-          <div class="fg full"><label>Future Career Goals *</label><textarea id="sop_goals"
-              placeholder="What do you plan to do after completing your studies?"></textarea></div>
-          <div class="fg"><label>English Test Score (if any)</label><input type="text" id="sop_eng"
-              placeholder="e.g. IELTS 6.5" /></div>
-          <div class="fg"><label>Financial Support</label><select id="sop_finance">
-              <option value="">Select</option>
-              <option>Self-funded / Family</option>
-              <option>Bank loan</option>
-              <option>Scholarship</option>
-              <option>Sponsor</option>
-            </select></div>
-        </div>
-        <button class="bsub" onclick="generateSOP()">&#10024; Generate My SOP with AI</button>
-        <p style="font-size:11px;color:var(--gray-400);text-align:center;margin-top:10px">Free - No account needed -
-          Takes about 15 seconds</p>
-      </div>
-      <div class="sop-step" id="sopStep2">
-        <div class="sop-loading">
-          <div class="spinner"></div>
-          <p id="sopLoadMsg">Generating your SOP with AI...</p>
-          <p style="font-size:11px;color:var(--gray-400);margin-top:6px">This takes about 15-20 seconds</p>
-        </div>
-      </div>
-      <div class="sop-step" id="sopStep3">
-        <div
-          style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px">
-          <div>
-            <div style="font-size:13px;font-weight:700;color:var(--green)">Your SOP is ready!</div>
-            <div style="font-size:11px;color:var(--gray-500)">Review, edit and paste into your application.</div>
-          </div>
-          <button class="btn-outline" style="font-size:12px;padding:6px 12px" onclick="showSOPStep(1)">Edit
-            Details</button>
-        </div>
-        <div class="sop-output" id="sopOutput"></div>
-        <div class="sop-actions">
-          <button class="btn-copy" onclick="copySOP()">Copy SOP</button>
-          <button class="btn-regen" onclick="generateSOP()">Regenerate</button>
-        </div>
-        <div
-          style="margin-top:14px;background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--blue)">
-          Tip: This is an AI-generated first draft. Personalise it further with specific details before submitting.
-        </div>
+      <div style="margin-top:14px;background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--blue)">
+        Tip: This is an AI-generated first draft. Personalise it further with specific details before submitting.
       </div>
     </div>
   </div>
-  <div class="toast" id="toast"></div>
-  <script data-cfasync="false">
-    const DATA = [
-      { id: 1, name: "Discovery Pathway Pvt Ltd", city: "Banepa", addr: "Chandeshwori Margh, Banepa, Kavrepalanchok, Nepal", phone: "+977-9851345539", email: "banepa@discoveryedu.com.np", countries: ["Australia", "South Korea", "UK", "USA"], successRate: 90, scamComplaints: 0, yearsActive: 4, regDate: "7/25/2023", status: "verified", about: "One of Nepal's best abroad study consultancies. Strong network with Korean and Australian universities.", emoji: "<img style='width:24px;height:24px;' src='discovery.png' alt='Discovery Pathway'>" },
-      { id: 2, name: "Kangaroo Education Foundation Pvt Ltd", city: "Kathmandu", addr: "Level 5, AB Complex, Putalisadak, Kathmandu", phone: "+977-1-4415678", email: "info@kangarooedu.com.np", countries: ["Australia", "UK"], successRate: 82, scamComplaints: 0, yearsActive: 10, regDate: "12/23/2071", status: "verified", about: "Specialized in Australian student visas. High approval rate with direct university partnerships.", emoji: "🦘" },
-      { id: 3, name: "IDP Education Nepal Pvt Ltd", city: "Kathmandu", addr: "Lazimpat, Kathmandu", phone: "+977-1-4411110", email: "nepal@idp.com", countries: ["Australia", "Canada", "UK", "USA", "Germany"], successRate: 91, scamComplaints: 0, yearsActive: 15, regDate: "10/20/2073", status: "verified", about: "International branch of IDP - one of the world's largest student placement organizations.", emoji: "🌍" },
-      { id: 4, name: "Milestone Consult Services Pvt Ltd", city: "Kathmandu", addr: "Shankhamul, Kathmandu", phone: "+977-1-4783210", email: "milestone@consult.com.np", countries: ["Canada", "USA", "UK"], successRate: 74, scamComplaints: 1, yearsActive: 9, regDate: "4/15/2072", status: "warning", about: "Experienced in Canadian and US student visas. One complaint filed in 2024 regarding delayed refunds.", emoji: "🏔️" },
-      { id: 5, name: "Maple International Education Pvt Ltd", city: "Kathmandu", addr: "Laxmi Plaza, Putalisadak, Kathmandu", phone: "+977-1-4421890", email: "info@mapleedu.com.np", countries: ["Canada", "Australia"], successRate: 79, scamComplaints: 0, yearsActive: 8, regDate: "4/15/2072", status: "verified", about: "Canada-focused consultancy with strong ties to Canadian colleges. Transparent fee structure.", emoji: "🍁" },
-      { id: 6, name: "Orient Consultancy Pvt Ltd", city: "Kathmandu", addr: "Bagbazar, Kathmandu", phone: "+977-1-4235600", email: "orient@consultancy.com.np", countries: ["Japan", "South Korea"], successRate: 85, scamComplaints: 0, yearsActive: 11, regDate: "4/18/2071", status: "verified", about: "Nepal's leading Japan and South Korea specialist. Japanese language classes included.", emoji: "🗾" },
-      { id: 7, name: "Education First Pvt Ltd", city: "Kathmandu", addr: "Putalisadak, Kathmandu", phone: "+977-1-4418900", email: "info@educationfirst.com.np", countries: ["UK", "Germany", "Australia"], successRate: 76, scamComplaints: 0, yearsActive: 10, regDate: "2/20/2071", status: "verified", about: "Good track record for UK universities. Also handles tuition-free German public university admissions.", emoji: "🇬🇧" },
-      { id: 8, name: "Beacon Premier International Education Pvt Ltd", city: "Pokhara", addr: "Siddhartha Chowk, Pokhara", phone: "+977-61-524567", email: "beacon@premier.com.np", countries: ["Australia", "Canada", "UK"], successRate: 80, scamComplaints: 0, yearsActive: 8, regDate: "4/20/2072", status: "verified", about: "Pokhara's most reliable abroad study consultancy. Excellent student support.", emoji: "🏔️" },
-      { id: 9, name: "King's Institute Pvt Ltd", city: "Pokhara", addr: "Mahendrapool, Pokhara", phone: "+977-61-531200", email: "kings@institute.edu.np", countries: ["Australia", "UK", "USA"], successRate: 77, scamComplaints: 0, yearsActive: 7, regDate: "4/20/2072", status: "verified", about: "Well-established in Pokhara. Strong IELTS coaching integrated with visa processing.", emoji: "👑" },
-      { id: 10, name: "Seaford Educational Consultancy Pvt Ltd", city: "Lalitpur", addr: "Kumaripati-05, Lalitpur", phone: "+977-1-5521890", email: "seaford@edu.com.np", countries: ["Australia", "UK"], successRate: 73, scamComplaints: 0, yearsActive: 9, regDate: "4/20/2072", status: "verified", about: "Lalitpur-based consultancy focused on Australian student visas. Affordable service fees.", emoji: "⚓" },
-      { id: 11, name: "Kantipur International Open Education Pvt Ltd", city: "Kathmandu", addr: "New Baneshwor, Kathmandu", phone: "+977-1-4782300", email: "kantipur@openedu.com.np", countries: ["Canada", "USA", "UK", "Australia"], successRate: 81, scamComplaints: 0, yearsActive: 10, regDate: "4/15/2072", status: "verified", about: "Multi-destination consultancy with experienced counselors for Canada and USA graduate programs.", emoji: "🎯" },
-      { id: 12, name: "Broadway Overseas Education Services Pvt Ltd", city: "Kathmandu", addr: "Putalisadak, Kathmandu", phone: "+977-1-4423100", email: "broadway@overseas.com.np", countries: ["Australia", "Canada", "UK", "USA", "Germany"], successRate: 83, scamComplaints: 0, yearsActive: 11, regDate: "4/20/2072", status: "verified", about: "Strong multi-country expertise. Particularly good for top-ranked UK and USA universities.", emoji: "🌐" },
-      { id: 13, name: "Almighty International Education Service Pvt Ltd", city: "Chitwan", addr: "Bharatpur-10, Chitwan", phone: "+977-56-524100", email: "almighty@intledu.com.np", countries: ["Australia", "Canada", "South Korea"], successRate: 71, scamComplaints: 0, yearsActive: 8, regDate: "4/20/2072", status: "verified", about: "Chitwan's established abroad consultancy. Good value for students in the terai region.", emoji: "⚡" },
-      { id: 14, name: "Oasis Education Group Pvt Ltd", city: "Chitwan", addr: "Lionschowk, Narayangarh, Chitwan", phone: "+977-56-522800", email: "oasis@edgroup.com.np", countries: ["Australia", "Japan", "South Korea"], successRate: 75, scamComplaints: 0, yearsActive: 7, regDate: "3/9/2073", status: "verified", about: "Japan and South Korea specialist in Chitwan region. Language preparation courses included.", emoji: "🌴" },
-      { id: 15, name: "Harvard Educational Consultancy Pvt Ltd", city: "Kathmandu", addr: "Maharajgunj, Kathmandu", phone: "+977-1-4008900", email: "harvard@edconsult.com.np", countries: ["USA", "UK", "Canada"], successRate: 68, scamComplaints: 2, yearsActive: 6, regDate: "4/20/2072", status: "warning", about: "USA-focused consultancy. Two complaints filed regarding misleading success rate claims.", emoji: "📚" },
-      { id: 16, name: "Global Peace International Education Academy Pvt Ltd", city: "Birtamode", addr: "Birtamod-5, Jhapa", phone: "+977-23-452100", email: "globalpeace@intledu.com.np", countries: ["Australia", "Canada", "Japan"], successRate: 72, scamComplaints: 0, yearsActive: 6, regDate: "3/22/2074", status: "verified", about: "Jhapa region's trusted consultancy. Good for eastern Nepal students wanting Australia and Japan pathways.", emoji: "🕊️" },
-      { id: 17, name: "Lumbini Australian Kangaroo Education Foundation Pvt Ltd", city: "Butwal", addr: "Milan Chowk, Butwal, Rupandehi", phone: "+977-71-540200", email: "lumbini@kanguruau.com.np", countries: ["Australia", "UK"], successRate: 78, scamComplaints: 0, yearsActive: 7, regDate: "11/1/2073", status: "verified", about: "Western Nepal's Australia specialist. Good processing times and student-friendly fee structure.", emoji: "🇦🇺" },
-      { id: 18, name: "Shin Japanese School Pvt Ltd", city: "Kathmandu", addr: "Bagbazar, Kathmandu", phone: "+977-1-4234500", email: "shin@japaneseschool.com.np", countries: ["Japan"], successRate: 88, scamComplaints: 0, yearsActive: 13, regDate: "2/20/2071", status: "verified", about: "Nepal's top Japan-only specialist. Highest Japan visa approval rate in Kathmandu.", emoji: "🏯" },
-      { id: 19, name: "Purbanchal International Education Network Pvt Ltd", city: "Chitwan", addr: "Itahari, Sunsari", phone: "+977-25-521700", email: "purbanchal@intledu.com.np", countries: ["Australia", "Canada", "South Korea"], successRate: 69, scamComplaints: 1, yearsActive: 8, regDate: "6/11/2072", status: "warning", about: "Eastern Nepal-based consultancy. One complaint regarding fee dispute in 2024.", emoji: "🌄" },
-      { id: 20, name: "Peaceful Educational Foundation Pvt Ltd", city: "Kathmandu", addr: "Bagbazar, Kathmandu", phone: "+977-1-4241100", email: "peaceful@educationfound.com.np", countries: ["Canada", "UK", "Germany"], successRate: 80, scamComplaints: 0, yearsActive: 10, regDate: "2/20/2071", status: "verified", about: "Reliable consultancy with strong Germany pathway - ideal for tuition-free European education.", emoji: "☮️" }
-    ];
-    let cityFilter = 'all', compareList = [], sopText = '';
-    function renderCards(list) {
-      const g = document.getElementById('cg'); g.innerHTML = '';
-      if (!list.length) { g.innerHTML = '<p style="color:var(--gray-400);grid-column:1/-1;text-align:center;padding:40px 0">No consultancies found.</p>'; document.getElementById('rc').innerHTML = '<b>0</b> found'; return; }
-      list.forEach(c => {
-        const inC = compareList.includes(c.id);
-        const sb = c.status === 'verified' ? '<span class="badge bv">Govt. Verified</span>' : c.status === 'warning' ? '<span class="badge bwarn">Warning</span>' : '<span class="badge bscam">Reported</span>';
-        const rc = c.successRate >= 80 ? 'good' : c.successRate >= 70 ? 'warn' : 'bad';
-        const sc = c.scamComplaints === 0 ? 'good' : c.scamComplaints === 1 ? 'warn' : 'bad';
-        const d = document.createElement('div'); d.className = 'card' + (inC ? ' selected' : ''); d.id = 'card-' + c.id;
-        d.innerHTML = `<div class="ctop"><div class="clogo">${c.emoji}</div><div class="badges">${sb}</div></div>
+</div>
+<div class="toast" id="toast"></div>
+<script data-cfasync="false">
+const DATA=[
+  {id:1,name:"Studylane International Pvt Ltd",city:"Kathmandu",addr:"Bajra Complex-Level 4, New Plaza, Putalisadak, Kathmandu",phone:"+977-1-4444333",email:"info@studylane.com.np",countries:["Australia","Canada","UK","USA"],successRate:78,scamComplaints:0,yearsActive:12,regDate:"2/25/2070",status:"verified",about:"One of Nepal's oldest abroad study consultancies. Strong network with Australian and Canadian universities.",emoji:"🎓"},
+  {id:2,name:"Kangaroo Education Foundation Pvt Ltd",city:"Kathmandu",addr:"Level 5, AB Complex, Putalisadak, Kathmandu",phone:"+977-1-4415678",email:"info@kangarooedu.com.np",countries:["Australia","UK"],successRate:82,scamComplaints:0,yearsActive:10,regDate:"12/23/2071",status:"verified",about:"Specialized in Australian student visas. High approval rate with direct university partnerships.",emoji:"🦘"},
+  {id:3,name:"IDP Education Nepal Pvt Ltd",city:"Kathmandu",addr:"Lazimpat, Kathmandu",phone:"+977-1-4411110",email:"nepal@idp.com",countries:["Australia","Canada","UK","USA","Germany"],successRate:91,scamComplaints:0,yearsActive:15,regDate:"10/20/2073",status:"verified",about:"International branch of IDP - one of the world's largest student placement organizations.",emoji:"🌍"},
+  {id:4,name:"Milestone Consult Services Pvt Ltd",city:"Kathmandu",addr:"Shankhamul, Kathmandu",phone:"+977-1-4783210",email:"milestone@consult.com.np",countries:["Canada","USA","UK"],successRate:74,scamComplaints:1,yearsActive:9,regDate:"4/15/2072",status:"warning",about:"Experienced in Canadian and US student visas. One complaint filed in 2024 regarding delayed refunds.",emoji:"🏔️"},
+  {id:5,name:"Maple International Education Pvt Ltd",city:"Kathmandu",addr:"Laxmi Plaza, Putalisadak, Kathmandu",phone:"+977-1-4421890",email:"info@mapleedu.com.np",countries:["Canada","Australia"],successRate:79,scamComplaints:0,yearsActive:8,regDate:"4/15/2072",status:"verified",about:"Canada-focused consultancy with strong ties to Canadian colleges. Transparent fee structure.",emoji:"🍁"},
+  {id:6,name:"Orient Consultancy Pvt Ltd",city:"Kathmandu",addr:"Bagbazar, Kathmandu",phone:"+977-1-4235600",email:"orient@consultancy.com.np",countries:["Japan","South Korea"],successRate:85,scamComplaints:0,yearsActive:11,regDate:"4/18/2071",status:"verified",about:"Nepal's leading Japan and South Korea specialist. Japanese language classes included.",emoji:"🗾"},
+  {id:7,name:"Education First Pvt Ltd",city:"Kathmandu",addr:"Putalisadak, Kathmandu",phone:"+977-1-4418900",email:"info@educationfirst.com.np",countries:["UK","Germany","Australia"],successRate:76,scamComplaints:0,yearsActive:10,regDate:"2/20/2071",status:"verified",about:"Good track record for UK universities. Also handles tuition-free German public university admissions.",emoji:"🇬🇧"},
+  {id:8,name:"Beacon Premier International Education Pvt Ltd",city:"Pokhara",addr:"Siddhartha Chowk, Pokhara",phone:"+977-61-524567",email:"beacon@premier.com.np",countries:["Australia","Canada","UK"],successRate:80,scamComplaints:0,yearsActive:8,regDate:"4/20/2072",status:"verified",about:"Pokhara's most reliable abroad study consultancy. Excellent student support.",emoji:"🏔️"},
+  {id:9,name:"King's Institute Pvt Ltd",city:"Pokhara",addr:"Mahendrapool, Pokhara",phone:"+977-61-531200",email:"kings@institute.edu.np",countries:["Australia","UK","USA"],successRate:77,scamComplaints:0,yearsActive:7,regDate:"4/20/2072",status:"verified",about:"Well-established in Pokhara. Strong IELTS coaching integrated with visa processing.",emoji:"👑"},
+  {id:10,name:"Seaford Educational Consultancy Pvt Ltd",city:"Lalitpur",addr:"Kumaripati-05, Lalitpur",phone:"+977-1-5521890",email:"seaford@edu.com.np",countries:["Australia","UK"],successRate:73,scamComplaints:0,yearsActive:9,regDate:"4/20/2072",status:"verified",about:"Lalitpur-based consultancy focused on Australian student visas. Affordable service fees.",emoji:"⚓"},
+  {id:11,name:"Kantipur International Open Education Pvt Ltd",city:"Kathmandu",addr:"New Baneshwor, Kathmandu",phone:"+977-1-4782300",email:"kantipur@openedu.com.np",countries:["Canada","USA","UK","Australia"],successRate:81,scamComplaints:0,yearsActive:10,regDate:"4/15/2072",status:"verified",about:"Multi-destination consultancy with experienced counselors for Canada and USA graduate programs.",emoji:"🎯"},
+  {id:12,name:"Broadway Overseas Education Services Pvt Ltd",city:"Kathmandu",addr:"Putalisadak, Kathmandu",phone:"+977-1-4423100",email:"broadway@overseas.com.np",countries:["Australia","Canada","UK","USA","Germany"],successRate:83,scamComplaints:0,yearsActive:11,regDate:"4/20/2072",status:"verified",about:"Strong multi-country expertise. Particularly good for top-ranked UK and USA universities.",emoji:"🌐"},
+  {id:13,name:"Almighty International Education Service Pvt Ltd",city:"Chitwan",addr:"Bharatpur-10, Chitwan",phone:"+977-56-524100",email:"almighty@intledu.com.np",countries:["Australia","Canada","South Korea"],successRate:71,scamComplaints:0,yearsActive:8,regDate:"4/20/2072",status:"verified",about:"Chitwan's established abroad consultancy. Good value for students in the terai region.",emoji:"⚡"},
+  {id:14,name:"Oasis Education Group Pvt Ltd",city:"Chitwan",addr:"Lionschowk, Narayangarh, Chitwan",phone:"+977-56-522800",email:"oasis@edgroup.com.np",countries:["Australia","Japan","South Korea"],successRate:75,scamComplaints:0,yearsActive:7,regDate:"3/9/2073",status:"verified",about:"Japan and South Korea specialist in Chitwan region. Language preparation courses included.",emoji:"🌴"},
+  {id:15,name:"Harvard Educational Consultancy Pvt Ltd",city:"Kathmandu",addr:"Maharajgunj, Kathmandu",phone:"+977-1-4008900",email:"harvard@edconsult.com.np",countries:["USA","UK","Canada"],successRate:68,scamComplaints:2,yearsActive:6,regDate:"4/20/2072",status:"warning",about:"USA-focused consultancy. Two complaints filed regarding misleading success rate claims.",emoji:"📚"},
+  {id:16,name:"Global Peace International Education Academy Pvt Ltd",city:"Birtamode",addr:"Birtamod-5, Jhapa",phone:"+977-23-452100",email:"globalpeace@intledu.com.np",countries:["Australia","Canada","Japan"],successRate:72,scamComplaints:0,yearsActive:6,regDate:"3/22/2074",status:"verified",about:"Jhapa region's trusted consultancy. Good for eastern Nepal students wanting Australia and Japan pathways.",emoji:"🕊️"},
+  {id:17,name:"Lumbini Australian Kangaroo Education Foundation Pvt Ltd",city:"Butwal",addr:"Milan Chowk, Butwal, Rupandehi",phone:"+977-71-540200",email:"lumbini@kanguruau.com.np",countries:["Australia","UK"],successRate:78,scamComplaints:0,yearsActive:7,regDate:"11/1/2073",status:"verified",about:"Western Nepal's Australia specialist. Good processing times and student-friendly fee structure.",emoji:"🇦🇺"},
+  {id:18,name:"Shin Japanese School Pvt Ltd",city:"Kathmandu",addr:"Bagbazar, Kathmandu",phone:"+977-1-4234500",email:"shin@japaneseschool.com.np",countries:["Japan"],successRate:88,scamComplaints:0,yearsActive:13,regDate:"2/20/2071",status:"verified",about:"Nepal's top Japan-only specialist. Highest Japan visa approval rate in Kathmandu.",emoji:"🏯"},
+  {id:19,name:"Purbanchal International Education Network Pvt Ltd",city:"Chitwan",addr:"Itahari, Sunsari",phone:"+977-25-521700",email:"purbanchal@intledu.com.np",countries:["Australia","Canada","South Korea"],successRate:69,scamComplaints:1,yearsActive:8,regDate:"6/11/2072",status:"warning",about:"Eastern Nepal-based consultancy. One complaint regarding fee dispute in 2024.",emoji:"🌄"},
+  {id:20,name:"Peaceful Educational Foundation Pvt Ltd",city:"Kathmandu",addr:"Bagbazar, Kathmandu",phone:"+977-1-4241100",email:"peaceful@educationfound.com.np",countries:["Canada","UK","Germany"],successRate:80,scamComplaints:0,yearsActive:10,regDate:"2/20/2071",status:"verified",about:"Reliable consultancy with strong Germany pathway - ideal for tuition-free European education.",emoji:"☮️"}
+];
+let cityFilter='all',compareList=[],sopText='';
+function renderCards(list){
+  const g=document.getElementById('cg');g.innerHTML='';
+  if(!list.length){g.innerHTML='<p style="color:var(--gray-400);grid-column:1/-1;text-align:center;padding:40px 0">No consultancies found.</p>';document.getElementById('rc').innerHTML='<b>0</b> found';return;}
+  list.forEach(c=>{
+    const inC=compareList.includes(c.id);
+    const sb=c.status==='verified'?'<span class="badge bv">Govt. Verified</span>':c.status==='warning'?'<span class="badge bwarn">Warning</span>':'<span class="badge bscam">Reported</span>';
+    const rc=c.successRate>=80?'good':c.successRate>=70?'warn':'bad';
+    const sc=c.scamComplaints===0?'good':c.scamComplaints===1?'warn':'bad';
+    const d=document.createElement('div');d.className='card'+(inC?' selected':'');d.id='card-'+c.id;
+    d.innerHTML=`<div class="ctop"><div class="clogo">${c.emoji}</div><div class="badges">${sb}</div></div>
 <h3>${c.name}</h3>
 <div class="cloc">📍 ${c.addr}</div>
-<div class="ccountries">${c.countries.map(ct => '<span class="ctag">' + ct + '</span>').join('')}</div>
+<div class="ccountries">${c.countries.map(ct=>'<span class="ctag">'+ct+'</span>').join('')}</div>
 <div class="cstats">
   <div class="cs"><div class="cs-val ${rc}">${c.successRate}%</div><div class="cs-lbl">Success</div></div>
-  <div class="cs"><div class="cs-val ${sc}">${c.scamComplaints === 0 ? 'None' : c.scamComplaints}</div><div class="cs-lbl">Reports</div></div>
+  <div class="cs"><div class="cs-val ${sc}">${c.scamComplaints===0?'None':c.scamComplaints}</div><div class="cs-lbl">Reports</div></div>
   <div class="cs"><div class="cs-val blue">${c.yearsActive}y</div><div class="cs-lbl">Active</div></div>
 </div>
 <div class="ccontact">
@@ -2194,129 +695,130 @@
   <a href="mailto:${c.email}">✉️ ${c.email}</a>
 </div>
 <div class="cact">
-  <button class="btn-cmp ${inC ? 'added' : ''}" onclick="toggleCompare(${c.id})" id="cmpbtn-${c.id}">${inC ? 'Added' : '+ Compare'}</button>
+  <button class="btn-cmp ${inC?'added':''}" onclick="toggleCompare(${c.id})" id="cmpbtn-${c.id}">${inC?'Added':'+ Compare'}</button>
   <button class="btn-detail" onclick="showDetail(${c.id})">Details</button>
   <button class="btn-rep" onclick="openModal('rModal')">🚩</button>
 </div>`;
-        g.appendChild(d);
-      });
-      document.getElementById('rc').innerHTML = '<b>' + list.length + '</b> consultancies found';
-    }
-    function setF(f, btn) { cityFilter = f; document.querySelectorAll('.ftab').forEach(b => b.classList.remove('on')); btn.classList.add('on'); applyF(); }
-    function applyF() {
-      const q = document.getElementById('q').value.toLowerCase().trim();
-      const cf = document.getElementById('cityF').value;
-      const co = document.getElementById('countryF').value;
-      renderCards(DATA.filter(c => {
-        const mq = !q || c.name.toLowerCase().includes(q) || c.addr.toLowerCase().includes(q) || c.countries.some(x => x.toLowerCase().includes(q));
-        return mq && (!cf || c.city === cf) && (!co || c.countries.includes(co)) && (cityFilter === 'all' || c.city === cityFilter);
-      }));
-    }
-    function toggleCompare(id) {
-      if (compareList.includes(id)) { compareList = compareList.filter(x => x !== id); }
-      else { if (compareList.length >= 3) { showToast('Max 3 consultancies!'); return; } compareList.push(id); }
-      updateCompareBar();
-      const card = document.getElementById('card-' + id); const btn = document.getElementById('cmpbtn-' + id);
-      if (card) card.classList.toggle('selected', compareList.includes(id));
-      if (btn) { btn.classList.toggle('added', compareList.includes(id)); btn.textContent = compareList.includes(id) ? 'Added' : '+ Compare'; }
-    }
-    function updateCompareBar() {
-      const bar = document.getElementById('compareBar'); const slots = document.getElementById('compareSlots');
-      slots.innerHTML = '';
-      compareList.forEach(id => {
-        const c = DATA.find(x => x.id === id); const s = document.createElement('div'); s.className = 'compare-slot';
-        s.innerHTML = '<span>' + c.emoji + '</span><span class="slot-name">' + c.name.split(' ').slice(0, 3).join(' ') + '</span><span class="slot-remove" onclick="toggleCompare(' + id + ')">x</span>';
-        slots.appendChild(s);
-      });
-      for (let i = compareList.length; i < 3; i++) { const e = document.createElement('div'); e.className = 'compare-slot empty'; e.textContent = 'Slot ' + (i + 1) + ' empty'; slots.appendChild(e); }
-      bar.classList.toggle('visible', compareList.length > 0);
-    }
-    function clearCompare() { compareList = []; document.querySelectorAll('.card').forEach(c => c.classList.remove('selected')); document.querySelectorAll('[id^="cmpbtn-"]').forEach(b => { b.classList.remove('added'); b.textContent = '+ Compare'; }); updateCompareBar(); }
-    function buildCompareTable() {
-      const items = compareList.map(id => DATA.find(x => x.id === id));
-      if (!items.length) return '<p style="color:var(--gray-400)">No consultancies selected.</p>';
-      const rows = [
-        { label: 'Name', vals: items.map(c => c.emoji + ' ' + c.name) },
-        { label: 'City', vals: items.map(c => c.city) },
-        { label: 'Countries', vals: items.map(c => c.countries.join(', ')) },
-        { label: 'Success Rate', vals: items.map(c => '<span class="' + (c.successRate >= 80 ? 'winner' : c.successRate >= 70 ? '' : 'loser') + '">' + c.successRate + '%</span>') },
-        { label: 'Complaints', vals: items.map(c => '<span class="' + (c.scamComplaints === 0 ? 'winner' : c.scamComplaints === 1 ? '' : 'loser') + '">' + (c.scamComplaints === 0 ? 'None' : c.scamComplaints) + '</span>') },
-        { label: 'Years Active', vals: items.map(c => c.yearsActive + ' years') },
-        { label: 'Status', vals: items.map(c => c.status === 'verified' ? 'Verified' : 'Warning') },
-        { label: 'Phone', vals: items.map(c => '<a href="tel:' + c.phone + '" style="color:var(--blue)">' + c.phone + '</a>') },
-        { label: 'About', vals: items.map(c => '<span style="font-size:12px;color:var(--gray-500)">' + c.about + '</span>') },
-      ];
-      let html = '<div class="cmp-table">';
-      rows.forEach(row => {
-        html += '<div class="cmp-row" style="grid-template-columns:110px ' + Array(items.length).fill('1fr').join(' ') + '"><div class="cmp-cell label">' + row.label + '</div>';
-        row.vals.forEach(v => { html += '<div class="cmp-cell">' + v + '</div>'; });
-        html += '</div>';
-      });
-      html += '</div>';
-      const best = [...items].sort((a, b) => (b.successRate - b.scamComplaints * 10) - (a.successRate - a.scamComplaints * 10))[0];
-      html += '<div style="margin-top:16px;background:var(--green-light);border:1px solid #BBF7D0;border-radius:10px;padding:12px 16px"><div style="font-size:13px;font-weight:700;color:var(--green);margin-bottom:3px">Our Recommendation</div><div style="font-size:13px;color:var(--gray-700)">' + best.emoji + ' <b>' + best.name + '</b> - <b>' + best.successRate + '% success rate</b>, <b>' + best.scamComplaints + ' complaints</b>.</div></div>';
-      return html;
-    }
-    function showDetail(id) {
-      const c = DATA.find(x => x.id === id);
-      document.getElementById('detTitle').textContent = c.name;
-      const rc = c.successRate >= 80 ? 'good' : c.successRate >= 70 ? 'warn' : 'bad';
-      document.getElementById('detBody').innerHTML = '<div class="det-head"><div class="det-logo">' + c.emoji + '</div><div class="det-info"><h2>' + c.name + '</h2><p>📍 ' + c.addr + '</p></div></div><div class="det-grid"><div class="det-item"><div class="di-label">Success Rate</div><div class="di-val cs-val ' + rc + '">' + c.successRate + '%</div></div><div class="det-item"><div class="di-label">Complaints</div><div class="di-val cs-val ' + (c.scamComplaints === 0 ? 'good' : 'warn') + '">' + (c.scamComplaints === 0 ? 'None' : c.scamComplaints) + '</div></div><div class="det-item"><div class="di-label">Years Active</div><div class="di-val">' + c.yearsActive + ' years</div></div><div class="det-item"><div class="di-label">Registered</div><div class="di-val">' + c.regDate + '</div></div></div><div style="margin-bottom:12px"><div class="ccountries">' + c.countries.map(ct => '<span class="ctag">' + ct + '</span>').join('') + '</div></div><div class="ccontact" style="margin-bottom:12px"><a href="tel:' + c.phone + '" style="font-size:13px">📞 ' + c.phone + '</a><a href="mailto:' + c.email + '" style="font-size:13px">✉️ ' + c.email + '</a></div><div style="background:var(--gray-50);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:14px;font-size:13px;color:var(--gray-600);line-height:1.7">' + c.about + '</div><div style="display:flex;gap:8px"><button class="btn-cmp" style="flex:1" onclick="toggleCompare(' + c.id + ');closeModal(\'detModal\')">+ Compare</button><button class="btn-rep" onclick="openModal(\'rModal\');closeModal(\'detModal\')">Report</button></div>';
-      openModal('detModal');
-    }
-    // SOP
-    function showSOPStep(n) { document.querySelectorAll('.sop-step').forEach(s => s.classList.remove('active')); document.getElementById('sopStep' + n).classList.add('active'); }
-    async function generateSOP() {
-      const name = document.getElementById('sop_name').value.trim();
-      const country = document.getElementById('sop_country').value;
-      const course = document.getElementById('sop_course').value.trim();
-      const why = document.getElementById('sop_why').value.trim();
-      const goals = document.getElementById('sop_goals').value.trim();
-      const qual = document.getElementById('sop_qual').value;
-      if (!name || !country || !course || !why || !goals || !qual) { showToast('Please fill all required fields!'); return; }
-      const uni = document.getElementById('sop_uni').value.trim();
-      const gpa = document.getElementById('sop_gpa').value.trim();
-      const work = document.getElementById('sop_work').value.trim();
-      const eng = document.getElementById('sop_eng').value.trim();
-      const finance = document.getElementById('sop_finance').value;
-      showSOPStep(2);
-      const loadMsgs = ['Generating your SOP...', 'Crafting your introduction...', 'Building your academic background...', 'Writing your career goals...', 'Finalising your SOP...'];
-      let mi = 0;
-      const loadInterval = setInterval(() => { document.getElementById('sopLoadMsg').textContent = loadMsgs[Math.min(mi++, loadMsgs.length - 1)]; }, 3000);
-      const prompt = 'Write a professional Statement of Purpose (SOP) for a Nepali student.\n\nName: ' + name + '\nDestination: ' + country + '\nCourse: ' + course + (uni ? '\nUniversity: ' + uni : '') + (qual ? '\nQualification: ' + qual : '') + (gpa ? '\nGrade: ' + gpa : '') + (work ? '\nWork Experience: ' + work : '\nNo work experience') + (eng ? '\nEnglish Test: ' + eng : '') + (finance ? '\nFinancial Support: ' + finance : '') + '\nReason for choosing: ' + why + '\nCareer Goals: ' + goals + '\n\nWrite a compelling, formal SOP of 500-600 words in first person. Structure: opening paragraph, academic background, experience, why this course and country, career plan, closing. Write in full paragraphs, no bullet points, no title heading.';
-      // FREE Google Gemini API - get key at aistudio.google.com
-      const GEMINI_KEY = 'AIzaSyCfaLPxBTyZKAKbnkWgjU57EUZTy45L-tw';
-      try {
-        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' + GEMINI_KEY, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { maxOutputTokens: 1200, temperature: 0.8 } })
-        });
-        clearInterval(loadInterval);
-        if (!response.ok) { const err = await response.json(); console.error('Gemini error:', err); showSOPStep(1); showToast('API error ' + response.status + '. Check your Gemini key.'); return; }
-        const data = await response.json();
-        const text = data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts[0].text;
-        if (text) { sopText = text; document.getElementById('sopOutput').textContent = sopText; showSOPStep(3); }
-        else { console.error('Unexpected response:', data); showSOPStep(1); showToast('Could not generate SOP. Try again.'); }
-      } catch (e) { clearInterval(loadInterval); console.error('Fetch error:', e); showSOPStep(1); showToast('Network error. Check connection.'); }
-    }
-    function copySOP() { if (!sopText) return; navigator.clipboard.writeText(sopText).then(() => showToast('SOP copied!')).catch(() => { const ta = document.createElement('textarea'); ta.value = sopText; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); showToast('SOP copied!'); }); }
-    function resetSOP() { sopText = ''; showSOPStep(1); }
-    // FORMS
-    function prefillReport(name, city) { document.getElementById('rname').value = name || ''; document.getElementById('rcity').value = city || ''; openModal('rModal'); }
-    function submitReport(e) { e.preventDefault(); closeModal('rModal'); showToast('Report submitted! Team reviews within 24hrs.'); }
-    function submitBasic() { const n = document.getElementById('bsc').value, p = document.getElementById('bsp').value, e = document.getElementById('bse').value, t = document.getElementById('bstxn').value; if (!n || !p || !e || !t) { showToast('Fill all required fields!'); return; } closeModal('basicModal'); showToast('Submitted! Goes live within 24 hours.'); }
-    function submitPartner() { const n = document.getElementById('ptc').value, p = document.getElementById('ptp').value, e = document.getElementById('pte').value, t = document.getElementById('pttxn').value; if (!n || !p || !e || !t) { showToast('Fill all required fields!'); return; } closeModal('partnerModal'); showToast('Partner application submitted!'); }
-    function submitPay() { const n = document.getElementById('pc').value, p = document.getElementById('pp').value, e = document.getElementById('pe').value, t = document.getElementById('ptxn').value; if (!n || !p || !e || !t) { showToast('Fill all required fields!'); return; } closeModal('payModal'); showToast('Payment submitted! Activating within 24 hours.'); }
-    // MODAL
-    function openModal(id) { if (id === 'cmpModal') document.getElementById('cmpBody').innerHTML = buildCompareTable(); document.getElementById(id).classList.add('on'); }
-    function closeModal(id) { document.getElementById(id).classList.remove('on'); }
-    document.querySelectorAll('.overlay').forEach(o => o.addEventListener('click', e => { if (e.target === o) { o.classList.remove('on'); if (o.id === 'sopModal') resetSOP(); } }));
-    // TOAST
-    function showToast(m) { const t = document.getElementById('toast'); t.textContent = m; t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 3500); }
-    // INIT
-    applyF();
-  </script>
+    g.appendChild(d);
+  });
+  document.getElementById('rc').innerHTML='<b>'+list.length+'</b> consultancies found';
+}
+function setF(f,btn){cityFilter=f;document.querySelectorAll('.ftab').forEach(b=>b.classList.remove('on'));btn.classList.add('on');applyF();}
+function applyF(){
+  const q=document.getElementById('q').value.toLowerCase().trim();
+  const cf=document.getElementById('cityF').value;
+  const co=document.getElementById('countryF').value;
+  renderCards(DATA.filter(c=>{
+    const mq=!q||c.name.toLowerCase().includes(q)||c.addr.toLowerCase().includes(q)||c.countries.some(x=>x.toLowerCase().includes(q));
+    return mq&&(!cf||c.city===cf)&&(!co||c.countries.includes(co))&&(cityFilter==='all'||c.city===cityFilter);
+  }));
+}
+function toggleCompare(id){
+  if(compareList.includes(id)){compareList=compareList.filter(x=>x!==id);}
+  else{if(compareList.length>=3){showToast('Max 3 consultancies!');return;}compareList.push(id);}
+  updateCompareBar();
+  const card=document.getElementById('card-'+id);const btn=document.getElementById('cmpbtn-'+id);
+  if(card)card.classList.toggle('selected',compareList.includes(id));
+  if(btn){btn.classList.toggle('added',compareList.includes(id));btn.textContent=compareList.includes(id)?'Added':'+ Compare';}
+}
+function updateCompareBar(){
+  const bar=document.getElementById('compareBar');const slots=document.getElementById('compareSlots');
+  slots.innerHTML='';
+  compareList.forEach(id=>{
+    const c=DATA.find(x=>x.id===id);const s=document.createElement('div');s.className='compare-slot';
+    s.innerHTML='<span>'+c.emoji+'</span><span class="slot-name">'+c.name.split(' ').slice(0,3).join(' ')+'</span><span class="slot-remove" onclick="toggleCompare('+id+')">x</span>';
+    slots.appendChild(s);
+  });
+  for(let i=compareList.length;i<3;i++){const e=document.createElement('div');e.className='compare-slot empty';e.textContent='Slot '+(i+1)+' empty';slots.appendChild(e);}
+  bar.classList.toggle('visible',compareList.length>0);
+}
+function clearCompare(){compareList=[];document.querySelectorAll('.card').forEach(c=>c.classList.remove('selected'));document.querySelectorAll('[id^="cmpbtn-"]').forEach(b=>{b.classList.remove('added');b.textContent='+ Compare';});updateCompareBar();}
+function buildCompareTable(){
+  const items=compareList.map(id=>DATA.find(x=>x.id===id));
+  if(!items.length)return '<p style="color:var(--gray-400)">No consultancies selected.</p>';
+  const rows=[
+    {label:'Name',vals:items.map(c=>c.emoji+' '+c.name)},
+    {label:'City',vals:items.map(c=>c.city)},
+    {label:'Countries',vals:items.map(c=>c.countries.join(', '))},
+    {label:'Success Rate',vals:items.map(c=>'<span class="'+(c.successRate>=80?'winner':c.successRate>=70?'':'loser')+'">'+c.successRate+'%</span>')},
+    {label:'Complaints',vals:items.map(c=>'<span class="'+(c.scamComplaints===0?'winner':c.scamComplaints===1?'':'loser')+'">'+(c.scamComplaints===0?'None':c.scamComplaints)+'</span>')},
+    {label:'Years Active',vals:items.map(c=>c.yearsActive+' years')},
+    {label:'Status',vals:items.map(c=>c.status==='verified'?'Verified':'Warning')},
+    {label:'Phone',vals:items.map(c=>'<a href="tel:'+c.phone+'" style="color:var(--blue)">'+c.phone+'</a>')},
+    {label:'About',vals:items.map(c=>'<span style="font-size:12px;color:var(--gray-500)">'+c.about+'</span>')},
+  ];
+  let html='<div class="cmp-table">';
+  rows.forEach(row=>{
+    html+='<div class="cmp-row" style="grid-template-columns:110px '+Array(items.length).fill('1fr').join(' ')+'"><div class="cmp-cell label">'+row.label+'</div>';
+    row.vals.forEach(v=>{html+='<div class="cmp-cell">'+v+'</div>';});
+    html+='</div>';
+  });
+  html+='</div>';
+  const best=[...items].sort((a,b)=>(b.successRate-b.scamComplaints*10)-(a.successRate-a.scamComplaints*10))[0];
+  html+='<div style="margin-top:16px;background:var(--green-light);border:1px solid #BBF7D0;border-radius:10px;padding:12px 16px"><div style="font-size:13px;font-weight:700;color:var(--green);margin-bottom:3px">Our Recommendation</div><div style="font-size:13px;color:var(--gray-700)">'+best.emoji+' <b>'+best.name+'</b> - <b>'+best.successRate+'% success rate</b>, <b>'+best.scamComplaints+' complaints</b>.</div></div>';
+  return html;
+}
+function showDetail(id){
+  const c=DATA.find(x=>x.id===id);
+  document.getElementById('detTitle').textContent=c.name;
+  const rc=c.successRate>=80?'good':c.successRate>=70?'warn':'bad';
+  document.getElementById('detBody').innerHTML='<div class="det-head"><div class="det-logo">'+c.emoji+'</div><div class="det-info"><h2>'+c.name+'</h2><p>📍 '+c.addr+'</p></div></div><div class="det-grid"><div class="det-item"><div class="di-label">Success Rate</div><div class="di-val cs-val '+rc+'">'+c.successRate+'%</div></div><div class="det-item"><div class="di-label">Complaints</div><div class="di-val cs-val '+(c.scamComplaints===0?'good':'warn')+'">'+(c.scamComplaints===0?'None':c.scamComplaints)+'</div></div><div class="det-item"><div class="di-label">Years Active</div><div class="di-val">'+c.yearsActive+' years</div></div><div class="det-item"><div class="di-label">Registered</div><div class="di-val">'+c.regDate+'</div></div></div><div style="margin-bottom:12px"><div class="ccountries">'+c.countries.map(ct=>'<span class="ctag">'+ct+'</span>').join('')+'</div></div><div class="ccontact" style="margin-bottom:12px"><a href="tel:'+c.phone+'" style="font-size:13px">📞 '+c.phone+'</a><a href="mailto:'+c.email+'" style="font-size:13px">✉️ '+c.email+'</a></div><div style="background:var(--gray-50);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:14px;font-size:13px;color:var(--gray-600);line-height:1.7">'+c.about+'</div><div style="display:flex;gap:8px"><button class="btn-cmp" style="flex:1" onclick="toggleCompare('+c.id+');closeModal(\'detModal\')">+ Compare</button><button class="btn-rep" onclick="openModal(\'rModal\');closeModal(\'detModal\')">Report</button></div>';
+  openModal('detModal');
+}
+// SOP
+function showSOPStep(n){document.querySelectorAll('.sop-step').forEach(s=>s.classList.remove('active'));document.getElementById('sopStep'+n).classList.add('active');}
+async function generateSOP(){
+  const name=document.getElementById('sop_name').value.trim();
+  const country=document.getElementById('sop_country').value;
+  const course=document.getElementById('sop_course').value.trim();
+  const why=document.getElementById('sop_why').value.trim();
+  const goals=document.getElementById('sop_goals').value.trim();
+  const qual=document.getElementById('sop_qual').value;
+  if(!name||!country||!course||!why||!goals||!qual){showToast('Please fill all required fields!');return;}
+  const uni=document.getElementById('sop_uni').value.trim();
+  const gpa=document.getElementById('sop_gpa').value.trim();
+  const work=document.getElementById('sop_work').value.trim();
+  const eng=document.getElementById('sop_eng').value.trim();
+  const finance=document.getElementById('sop_finance').value;
+  showSOPStep(2);
+  const loadMsgs=['Generating your SOP...','Crafting your introduction...','Building your academic background...','Writing your career goals...','Finalising your SOP...'];
+  let mi=0;
+  const loadInterval=setInterval(()=>{document.getElementById('sopLoadMsg').textContent=loadMsgs[Math.min(mi++,loadMsgs.length-1)];},3000);
+  const prompt='Write a professional Statement of Purpose (SOP) for a Nepali student.\n\nName: '+name+'\nDestination: '+country+'\nCourse: '+course+(uni?'\nUniversity: '+uni:'')+(qual?'\nQualification: '+qual:'')+(gpa?'\nGrade: '+gpa:'')+(work?'\nWork Experience: '+work:'\nNo work experience')+(eng?'\nEnglish Test: '+eng:'')+(finance?'\nFinancial Support: '+finance:'')+'\nReason for choosing: '+why+'\nCareer Goals: '+goals+'\n\nWrite a compelling, formal SOP of 500-600 words in first person. Structure: opening paragraph, academic background, experience, why this course and country, career plan, closing. Write in full paragraphs, no bullet points, no title heading.';
+  // FREE Google Gemini API - get key at aistudio.google.com
+  const GEMINI_KEY='YOUR_GEMINI_KEY_HERE';
+  try{
+    const response=await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key='+GEMINI_KEY,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({contents:[{parts:[{text:prompt}]}],generationConfig:{maxOutputTokens:1200,temperature:0.8}})
+    });
+    clearInterval(loadInterval);
+    if(!response.ok){const err=await response.json();console.error('Gemini error:',err);showSOPStep(1);showToast('API error '+response.status+'. Check your Gemini key.');return;}
+    const data=await response.json();
+    const text=data&&data.candidates&&data.candidates[0]&&data.candidates[0].content&&data.candidates[0].content.parts[0].text;
+    if(text){sopText=text;document.getElementById('sopOutput').textContent=sopText;showSOPStep(3);}
+    else{console.error('Unexpected response:',data);showSOPStep(1);showToast('Could not generate SOP. Try again.');}
+  }catch(e){clearInterval(loadInterval);console.error('Fetch error:',e);showSOPStep(1);showToast('Network error. Check connection.');}
+}
+function copySOP(){if(!sopText)return;navigator.clipboard.writeText(sopText).then(()=>showToast('SOP copied!')).catch(()=>{const ta=document.createElement('textarea');ta.value=sopText;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);showToast('SOP copied!');});}
+function resetSOP(){sopText='';showSOPStep(1);}
+// FORMS
+function prefillReport(name,city){document.getElementById('rname').value=name||'';document.getElementById('rcity').value=city||'';openModal('rModal');}
+function submitReport(e){e.preventDefault();closeModal('rModal');showToast('Report submitted! Team reviews within 24hrs.');}
+function submitBasic(){const n=document.getElementById('bsc').value,p=document.getElementById('bsp').value,e=document.getElementById('bse').value,t=document.getElementById('bstxn').value;if(!n||!p||!e||!t){showToast('Fill all required fields!');return;}closeModal('basicModal');showToast('Submitted! Goes live within 24 hours.');}
+function submitPartner(){const n=document.getElementById('ptc').value,p=document.getElementById('ptp').value,e=document.getElementById('pte').value,t=document.getElementById('pttxn').value;if(!n||!p||!e||!t){showToast('Fill all required fields!');return;}closeModal('partnerModal');showToast('Partner application submitted!');}
+function submitPay(){const n=document.getElementById('pc').value,p=document.getElementById('pp').value,e=document.getElementById('pe').value,t=document.getElementById('ptxn').value;if(!n||!p||!e||!t){showToast('Fill all required fields!');return;}closeModal('payModal');showToast('Payment submitted! Activating within 24 hours.');}
+// MODAL
+function openModal(id){if(id==='cmpModal')document.getElementById('cmpBody').innerHTML=buildCompareTable();document.getElementById(id).classList.add('on');}
+// MODAL
+function openModal(id){if(id==='cmpModal')document.getElementById('cmpBody').innerHTML=buildCompareTable();document.getElementById(id).classList.add('on');}
+function closeModal(id){document.getElementById(id).classList.remove('on');}
+document.querySelectorAll('.overlay').forEach(o=>o.addEventListener('click',e=>{if(e.target===o){o.classList.remove('on');if(o.id==='sopModal')resetSOP();}}));
+// TOAST
+function showToast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('on');setTimeout(()=>t.classList.remove('on'),3500);}
+// INIT
+applyF();
+</script>
 </body>
-
 </html>
